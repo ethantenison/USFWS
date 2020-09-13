@@ -25,5 +25,13 @@ raw_data <- clean_names(raw_data)
 
 cohort <- raw_data %>% dplyr::select(1:138) %>% dplyr::select(-c(x47,x93))
 
+cohort <- cohort %>%  tidyr::pivot_longer(
+    cols = c(adams_daniel:wilson_randy),
+    names_to = "alter",
+    values_to = "function"
+    
+) %>% select(name, alter, `function`, everything()) %>% 
+  drop_na(`function`)
+
 
 ```
