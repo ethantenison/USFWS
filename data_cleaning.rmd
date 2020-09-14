@@ -95,6 +95,8 @@ cohort$Alter <- gsub('_', ' ', cohort$Alter)
 cohort$Alter <- sub("(\\w+)\\s(\\w+)","\\2 \\1", cohort$Alter)
 cohort$Alter <- str_to_title(cohort$Alter)
 
+write.csv(cohort, "cohort_network.csv")
+
 ```
 
 # USFWS Network 
@@ -170,7 +172,7 @@ for (i in 1:length(USFWS_final$`Functional Area`)) {
 
 USFWS_final <- USFWS_final %>% select(Ego, Alter, Program, -c(`Functional Area`), `Budget and Administration`, Landscape, Permitting, Science, Other, `Other Area`, Nature )
 
-
+write.csv(USFWS_final, "USFWS_network.csv")
 ```
 
 
@@ -178,7 +180,79 @@ USFWS_final <- USFWS_final %>% select(Ego, Alter, Program, -c(`Functional Area`)
 
 ```{r, external}
 
+df <- raw_data %>% dplyr::select(ego, external_partner_number_1:nature_external_partner_number_15) %>% select(-c(x234, x280, x311))
 
+#Alters 
+Alters <- df %>% dplyr::select(1:16)
+
+Alters <- Alters %>%  tidyr::pivot_longer(
+  cols = c(external_partner_number_1:external_partner_number_15),
+  names_to = "to_delete",
+  values_to = "Alter"
+  
+) %>% select(ego, Alter)
+
+#organization 
+organizations <- df[ , grepl( "organization" , names( df ) ) ]
+ego <- df[,1]
+organizations <- bind_cols(ego, organizations)
+
+organizations <- organizations %>%  tidyr::pivot_longer(
+  cols = c(external_partner_number_1_organization:external_partner_number_15_organization),
+  names_to = "to_delete",
+  values_to = "Organization"
+  
+) %>% select(ego, Organization) 
+
+#functional area
+func <- df %>% dplyr::select(ego, 62:76)
+func <- func %>%  tidyr::pivot_longer(
+  cols = c(functional_area_external_partner_number_1:functional_area_external_partner_number_15),
+  names_to = "to_delete",
+  values_to = "Functional Area"
+  
+) %>% select(ego, "Functional Area")
+
+#functional area other
+other <- df %>% dplyr::select(ego, 77:91)
+other <- other %>%  tidyr::pivot_longer(
+  cols = c(function_other_external_partner_number_1:function_other_external_partner_number_15),
+  names_to = "to_delete",
+  values_to = "Other Area"
+  
+) %>% select(ego, "Other Area")
+
+#nature
+nature <- df %>% dplyr::select(ego, 92:106)
+nature <- nature %>%  tidyr::pivot_longer(
+  cols = c(nature_external_partner_number_1:nature_external_partner_number_15),
+  names_to = "to_delete",
+  values_to = "Nature"
+  
+) %>% select(ego, "Nature")
+
+#joining
+External <- bind_cols(Alters, organizations, func, other, nature)
+External <- External %>% dplyr::select("ego...1", "Alter", "Organization", "Functional Area", "Other Area", "Nature") %>% rename(Ego = "ego...1") %>% drop_na(Alter)
+
+External$`Budget and Administration` <- 0
+External$Landscape <- 0
+External$Permitting <- 0
+External$Science <- 0
+External$Other <- 0
+
+for (i in 1:length(External$`Functional Area`)) {
+  for (j in 7:11) {
+    if (str_contains(External$`Functional Area`[i], colnames(External[j]))) {
+      External[[j]][i] <- 1
+    }
+  }
+  
+}
+
+External <- External %>% select(Ego, Alter, Organization, -c(`Functional Area`), `Budget and Administration`, Landscape, Permitting, Science, Other, `Other Area`, Nature )
+
+write.csv(External, "External_network.csv")
 
 ```
 

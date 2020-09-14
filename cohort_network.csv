@@ -1,0 +1,821 @@
+"","Ego","Alter","B&A","Landscape","Permitting","Science","Other","Other Explained","Nature"
+"1","Amy Keister","Daniel Adams",0,1,0,0,0,NA,"Collaborate"
+"2","Amy Keister","Yvonne Allen",0,0,0,0,1,"GIS","Collaborate"
+"3","Amy Keister","Jose Barrios",0,1,0,0,1,"GIS",NA
+"4","Amy Keister","Laura Brandt",0,0,0,1,0,NA,NA
+"5","Amy Keister","Blaine Elliott",0,1,0,0,1,NA,NA
+"6","Amy Keister","Roy Freeman",1,0,0,0,0,NA,"Coordinate"
+"7","Amy Keister","Buddy Jones",1,0,0,0,0,NA,NA
+"8","Amy Keister","Farrand Jones David Green Todd",0,1,0,1,1,NA,"Collaborate"
+"9","Amy Keister","Mallory Martin",0,1,0,0,1,NA,"Coordinate"
+"10","Amy Keister","Rua Mordecai",0,1,0,1,1,NA,NA
+"11","Amy Keister","Hilary Morris",0,1,0,1,1,NA,NA
+"12","Amy Keister","Beth Stys",0,1,0,1,1,NA,NA
+"13","Amy Keister","Blair Tirpak",0,1,0,1,1,NA,NA
+"14","Amy Keister","Bill Uihlein",1,1,0,1,0,"Supervisor (or so he thinks) discussions about FWS who we are and how we work","Collaborate"
+"15","Amy Keister","Louise Vaughn",0,1,0,1,1,NA,NA
+"16","Anne Mini","Yvonne Allen",0,1,0,1,0,NA,NA
+"17","Anne Mini","Bill Bartush",0,1,0,1,0,NA,NA
+"18","Anne Mini","Steve Brock",0,1,0,1,0,NA,NA
+"19","Anne Mini","Wylie Carr",0,0,0,1,0,NA,NA
+"20","Anne Mini","Dean Demarest",0,0,0,1,0,NA,"Communicate"
+"21","Anne Mini","Tom Edwards",0,0,0,1,0,NA,NA
+"22","Anne Mini","Blaine Elliott",0,1,0,1,0,NA,NA
+"23","Anne Mini","Jeffrey Gleason",0,1,0,1,0,NA,NA
+"24","Anne Mini","Rob Holbrook",0,1,0,1,0,NA,"Collaborate"
+"25","Anne Mini","Farrand Jones David Green Todd",0,1,0,1,0,NA,"Collaborate"
+"26","Anne Mini","Han Mc Linda",1,0,0,0,0,NA,"Communicate"
+"27","Anne Mini","Knight Mc Steven Keith",0,1,0,1,1,NA,"Coordinate"
+"28","Anne Mini","Rua Mordecai",0,1,0,1,0,NA,NA
+"29","Anne Mini","Catherine Rideout",0,1,0,1,0,NA,"Coordinate"
+"30","Anne Mini","John Stanton",0,0,0,1,0,NA,"Coordinate"
+"31","Anne Mini","Blair Tirpak",0,1,0,1,0,NA,NA
+"32","Anne Mini","John Tirpak",0,0,0,1,0,NA,"Coordinate"
+"33","Anne Mini","Randy Wilson",0,1,0,1,0,NA,"Collaborate"
+"34","Beth Stys","Yvonne Allen",0,1,0,1,0,NA,NA
+"35","Beth Stys","Laura Brandt",0,0,0,1,0,NA,NA
+"36","Beth Stys","Wylie Carr",0,0,0,0,1,"human dimensions",NA
+"37","Beth Stys","Cindy Fury",0,0,0,0,1,NA,NA
+"38","Beth Stys","Bermudez Garcia Miguel",0,1,0,1,1,NA,NA
+"39","Beth Stys","Todd Hopkins Red Todd",1,1,0,1,0,NA,NA
+"40","Beth Stys","Farrand Jones David Green Todd",0,1,0,1,0,NA,"Collaborate"
+"41","Beth Stys","Amy Keister",0,1,0,0,0,NA,NA
+"42","Beth Stys","Mallory Martin",0,1,0,0,0,NA,NA
+"43","Beth Stys","Rua Mordecai",0,1,0,1,0,NA,NA
+"44","Beth Stys","Hilary Morris",0,1,0,0,1,NA,NA
+"45","Beth Stys","Brent Murry",0,1,0,1,1,NA,NA
+"46","Beth Stys","John Tirpak",0,1,0,1,0,NA,NA
+"47","Beth Stys","Bill Uihlein",1,1,0,1,0,NA,NA
+"48","Beth Stys","Louise Vaughn",0,1,0,0,1,NA,NA
+"49","Bill Bartush","Yvonne Allen",0,0,0,1,0,NA,"Coordinate"
+"50","Bill Bartush","Steve Brock",1,1,0,1,1,"coordination & communication",NA
+"51","Bill Bartush","Wylie Carr",0,0,0,0,1,"human dimensions & advice","Communicate"
+"52","Bill Bartush","Dean Demarest",0,1,0,0,1,"Joint Venture Management Board","Collaborate"
+"53","Bill Bartush","Blaine Elliott",0,1,0,1,1,"IT support","Communicate"
+"54","Bill Bartush","Rob Holbrook",0,1,0,0,0,NA,NA
+"55","Bill Bartush","Farrand Jones David Green Todd",0,1,0,1,1,NA,NA
+"56","Bill Bartush","Amy Keister",0,0,0,1,0,"GIS support","Coordinate"
+"57","Bill Bartush","Mallory Martin",0,0,0,0,1,NA,NA
+"58","Bill Bartush","Han Mc Linda",1,0,0,0,0,NA,NA
+"59","Bill Bartush","Knight Mc Steven Keith",1,1,0,1,1,"Regional Waterfowl Objectives","Coordinate"
+"60","Bill Bartush","Anne Mini",1,1,0,1,1,NA,"Coordinate"
+"61","Bill Bartush","Rua Mordecai",0,1,0,1,1,"Marine Planning","Coordinate"
+"62","Bill Bartush","Hilary Morris",0,1,0,1,1,"Partner Outreach","Coordinate"
+"63","Bill Bartush","Catherine Rideout",0,1,0,0,0,"Supervision","Coordinate"
+"64","Bill Bartush","Blair Tirpak",0,1,0,1,1,NA,NA
+"65","Bill Bartush","John Tirpak",0,1,0,0,1,NA,NA
+"66","Bill Bartush","Bill Uihlein",0,0,0,0,1,"My Supervisor","Collaborate"
+"67","Bill Bartush","Randy Wilson",0,1,0,0,1,"Regional Safety Training","Collaborate"
+"68","Bill Uihlein","Daniel Adams",0,1,0,1,0,NA,"Collaborate"
+"69","Bill Uihlein","Yvonne Allen",0,1,0,1,0,NA,"Collaborate"
+"70","Bill Uihlein","Jose Barrios",0,1,0,1,0,NA,"Communicate"
+"71","Bill Uihlein","Laura Brandt",0,1,0,1,0,NA,"Collaborate"
+"72","Bill Uihlein","Stephanie Bruner",1,0,0,0,1,"HR","Coordinate"
+"73","Bill Uihlein","Wylie Carr",0,1,0,1,0,NA,"Communicate"
+"74","Bill Uihlein","Dean Demarest",1,1,1,1,0,NA,NA
+"75","Bill Uihlein","Roy Freeman",1,0,0,0,1,NA,"Coordinate"
+"76","Bill Uihlein","Cindy Fury",0,1,1,1,0,NA,"Collaborate"
+"77","Bill Uihlein","Bermudez Garcia Miguel",0,1,0,1,0,"SWAPs, Puerto Rico and USVI, invasive species, gap filling","Collaborate"
+"78","Bill Uihlein","Jeffrey Gleason",0,1,0,1,0,NA,NA
+"79","Bill Uihlein","Todd Hopkins Red Todd",1,1,0,1,1,NA,"Coordinate"
+"80","Bill Uihlein","Buddy Jones",1,0,0,0,1,NA,NA
+"81","Bill Uihlein","Farrand Jones David Green Todd",0,1,0,1,0,NA,"Collaborate"
+"82","Bill Uihlein","Mallory Martin",1,1,0,1,0,NA,"Coordinate"
+"83","Bill Uihlein","Knight Mc Steven Keith",0,1,0,1,0,NA,NA
+"84","Bill Uihlein","Rua Mordecai",0,1,0,1,0,NA,"Communicate"
+"85","Bill Uihlein","Brent Murry",0,1,0,1,0,NA,NA
+"86","Bill Uihlein","Catherine Rideout",1,1,0,1,0,NA,NA
+"87","Bill Uihlein","Carmen Simonton",0,0,1,0,0,NA,NA
+"88","Bill Uihlein","John Stanton",0,1,1,1,0,NA,NA
+"89","Bill Uihlein","Beth Stys",0,1,0,1,0,NA,"Coordinate"
+"90","Bill Uihlein","John Tirpak",0,1,0,1,0,NA,"Coordinate"
+"91","Bill Uihlein","Bill Uihlein",1,1,1,1,1,NA,"Collaborate"
+"92","Bill Uihlein","Louise Vaughn",0,1,0,1,0,NA,"Collaborate"
+"93","Bill Uihlein","Randy Wilson",1,1,1,1,1,NA,NA
+"94","Blaine Elliott","Yvonne Allen",0,1,0,1,0,NA,"Coordinate"
+"95","Blaine Elliott","Jose Barrios",0,1,0,1,0,NA,NA
+"96","Blaine Elliott","Bill Bartush",0,1,0,0,0,NA,"Collaborate"
+"97","Blaine Elliott","Steve Brock",0,1,0,0,0,NA,"Collaborate"
+"98","Blaine Elliott","Dean Demarest",0,1,0,0,0,NA,"Collaborate"
+"99","Blaine Elliott","Tom Edwards",0,1,0,0,0,NA,"Communicate"
+"100","Blaine Elliott","Rob Holbrook",0,1,0,0,0,NA,"Communicate"
+"101","Blaine Elliott","Farrand Jones David Green Todd",0,1,0,1,0,NA,"Collaborate"
+"102","Blaine Elliott","Amy Keister",0,1,0,1,0,NA,NA
+"103","Blaine Elliott","Han Mc Linda",1,0,0,0,0,NA,"Collaborate"
+"104","Blaine Elliott","Knight Mc Steven Keith",0,1,0,0,0,NA,NA
+"105","Blaine Elliott","Anne Mini",0,1,0,0,0,NA,"Collaborate"
+"106","Blaine Elliott","Catherine Rideout",0,1,0,0,0,NA,"Communicate"
+"107","Blaine Elliott","Blair Tirpak",0,0,0,1,0,NA,"Coordinate"
+"108","Blaine Elliott","Randy Wilson",0,1,0,0,0,NA,"Collaborate"
+"109","Blair Tirpak","Daniel Adams",0,1,0,1,0,NA,NA
+"110","Blair Tirpak","Yvonne Allen",0,1,0,1,0,NA,NA
+"111","Blair Tirpak","Jose Barrios",0,0,0,1,0,NA,NA
+"112","Blair Tirpak","Bill Bartush",0,1,0,0,0,NA,"Communicate"
+"113","Blair Tirpak","Vore De Christopher",0,1,0,1,0,NA,NA
+"114","Blair Tirpak","Blaine Elliott",0,1,0,1,0,"Collaborate","Collaborate"
+"115","Blair Tirpak","Jeffrey Gleason",0,1,0,1,0,NA,"Collaborate"
+"116","Blair Tirpak","Emily Granstaff",0,1,0,1,0,NA,NA
+"117","Blair Tirpak","Todd Hopkins Red Todd",1,1,0,1,0,NA,NA
+"118","Blair Tirpak","Farrand Jones David Green Todd",1,1,0,1,0,NA,NA
+"119","Blair Tirpak","Amy Keister",0,1,0,1,0,NA,NA
+"120","Blair Tirpak","Mallory Martin",0,1,0,1,0,NA,NA
+"121","Blair Tirpak","Knight Mc Steven Keith",0,1,0,1,0,NA,"Collaborate"
+"122","Blair Tirpak","Anne Mini",0,1,0,1,0,NA,"Communicate"
+"123","Blair Tirpak","Rua Mordecai",0,1,0,1,0,NA,NA
+"124","Blair Tirpak","Hilary Morris",0,1,0,0,0,NA,NA
+"125","Blair Tirpak","Beth Stys",0,1,0,0,0,NA,NA
+"126","Blair Tirpak","John Tirpak",0,1,0,1,0,NA,NA
+"127","Blair Tirpak","Bill Uihlein",1,1,0,1,0,"Communicate","Communicate"
+"128","Blair Tirpak","Louise Vaughn",0,1,0,0,0,NA,NA
+"129","Blair Tirpak","Randy Wilson",0,0,0,1,0,"Collaborate","Collaborate"
+"130","Brent Murry","Daniel Adams",0,1,0,1,0,NA,NA
+"131","Brent Murry","Yvonne Allen",0,1,0,1,0,NA,NA
+"132","Brent Murry","Jose Barrios",0,1,0,0,0,NA,"Communicate"
+"133","Brent Murry","Laura Brandt",0,1,0,1,0,NA,"Coordinate"
+"134","Brent Murry","Stephanie Bruner",1,0,0,0,0,NA,"Coordinate"
+"135","Brent Murry","Wylie Carr",0,0,0,0,1,"human dimensions, peer review","Coordinate"
+"136","Brent Murry","Roy Freeman",1,0,0,0,0,NA,"Communicate"
+"137","Brent Murry","Cindy Fury",0,0,0,1,0,NA,"Coordinate"
+"138","Brent Murry","Bermudez Garcia Miguel",1,1,0,1,1,NA,NA
+"139","Brent Murry","Emily Granstaff",0,1,0,1,0,NA,NA
+"140","Brent Murry","Todd Hopkins Red Todd",0,1,0,0,0,NA,NA
+"141","Brent Murry","Farrand Jones David Green Todd",0,1,0,1,0,NA,"Collaborate"
+"142","Brent Murry","Amy Keister",0,1,0,0,0,NA,NA
+"143","Brent Murry","Mallory Martin",0,1,0,1,0,NA,NA
+"144","Brent Murry","Rua Mordecai",0,1,0,0,0,NA,NA
+"145","Brent Murry","Hilary Morris",0,1,0,0,0,NA,NA
+"146","Brent Murry","Beth Stys",0,1,0,1,0,NA,NA
+"147","Brent Murry","Blair Tirpak",0,1,0,0,0,NA,NA
+"148","Brent Murry","John Tirpak",0,1,0,1,0,NA,"Collaborate"
+"149","Brent Murry","Bill Uihlein",1,1,0,0,0,NA,"Collaborate"
+"150","Brent Murry","Louise Vaughn",0,1,0,0,0,NA,NA
+"151","Buddy Jones","Stephanie Bruner",1,0,0,0,0,NA,NA
+"152","Buddy Jones","Wylie Carr",1,0,0,0,0,NA,"Collaborate"
+"153","Buddy Jones","Dean Demarest",1,0,0,0,0,NA,NA
+"154","Buddy Jones","Tom Edwards",1,0,0,0,0,NA,NA
+"155","Buddy Jones","Roy Freeman",1,0,0,0,0,NA,"Communicate"
+"156","Buddy Jones","Karen Frizzell",1,0,0,0,0,NA,NA
+"157","Buddy Jones","Cindy Fury",1,0,0,0,0,NA,NA
+"158","Buddy Jones","Bermudez Garcia Miguel",1,0,0,0,0,NA,"Coordinate"
+"159","Buddy Jones","Jeffrey Gleason",1,0,0,0,0,NA,NA
+"160","Buddy Jones","Rob Holbrook",1,0,0,0,0,NA,NA
+"161","Buddy Jones","Todd Hopkins Red Todd",1,0,0,0,0,NA,"Collaborate"
+"162","Buddy Jones","Dawn James",1,0,0,0,0,NA,NA
+"163","Buddy Jones","Farrand Jones David Green Todd",1,0,0,0,0,NA,"Collaborate"
+"164","Buddy Jones","Amy Keister",1,0,0,0,0,NA,"Collaborate"
+"165","Buddy Jones","Mallory Martin",1,0,0,0,0,NA,NA
+"166","Buddy Jones","Han Mc Linda",1,0,0,0,0,NA,NA
+"167","Buddy Jones","Knight Mc Steven Keith",1,0,0,0,0,NA,NA
+"168","Buddy Jones","Brent Murry",1,0,0,0,0,NA,NA
+"169","Buddy Jones","Michelle Outlaw",1,0,0,0,0,NA,NA
+"170","Buddy Jones","Catherine Rideout",1,0,0,0,0,NA,NA
+"171","Buddy Jones","Carmen Simonton",1,0,1,0,0,NA,NA
+"172","Buddy Jones","John Stanton",1,0,0,0,0,NA,NA
+"173","Buddy Jones","Bill Uihlein",1,0,0,0,0,NA,"Collaborate"
+"174","Buddy Jones","Louise Vaughn",1,0,0,0,0,NA,"Collaborate"
+"175","Buddy Jones","Cathy Watkins",1,0,0,0,0,NA,NA
+"176","Buddy Jones","Randy Wilson",1,0,0,0,0,NA,NA
+"177","Carmen Simonton","Resee Collins",0,0,1,0,0,NA,NA
+"178","Carmen Simonton","Dean Demarest",0,0,1,0,0,NA,NA
+"179","Carmen Simonton","Cindy Fury",0,0,1,0,0,NA,NA
+"180","Carmen Simonton","Buddy Jones",0,0,1,0,0,NA,NA
+"181","Carmen Simonton","Michelle Outlaw",0,0,1,0,0,NA,NA
+"182","Carmen Simonton","John Stanton",0,0,1,0,0,NA,NA
+"183","Carmen Simonton","Randy Wilson",0,0,1,0,0,NA,"Collaborate"
+"184","Catherine Rideout","Steve Brock",0,1,0,0,0,NA,"Collaborate"
+"185","Catherine Rideout","Wylie Carr",0,0,0,0,1,"Human Dimensions/Social Sciences","Communicate"
+"186","Catherine Rideout","Dean Demarest",1,1,0,1,0,"leadership & advice","Communicate"
+"187","Catherine Rideout","Karen Frizzell",1,0,0,0,0,NA,NA
+"188","Catherine Rideout","Cindy Fury",1,0,0,0,0,NA,NA
+"189","Catherine Rideout","Jeffrey Gleason",0,1,0,1,0,NA,NA
+"190","Catherine Rideout","Rob Holbrook",1,1,0,1,0,NA,"Coordinate"
+"191","Catherine Rideout","Dawn James",1,0,0,0,0,NA,NA
+"192","Catherine Rideout","Buddy Jones",1,0,0,0,0,NA,NA
+"193","Catherine Rideout","Farrand Jones David Green Todd",1,1,0,1,0,"Advisory background on JV & LCC","Collaborate"
+"194","Catherine Rideout","Ulgonda Kirkpatrick",0,0,1,0,0,NA,NA
+"195","Catherine Rideout","Mallory Martin",0,1,0,0,0,"Advisory LCC/SECAS","Coordinate"
+"196","Catherine Rideout","Knight Mc Steven Keith",1,1,0,1,0,"Al things LMVJV","Collaborate"
+"197","Catherine Rideout","Anne Mini",0,1,0,1,0,"ABC & JV science background","Collaborate"
+"198","Catherine Rideout","Rua Mordecai",0,1,0,1,0,"Advisory LCC/SECAS","Collaborate"
+"199","Catherine Rideout","Michelle Outlaw",0,0,1,0,0,NA,NA
+"200","Catherine Rideout","Carmen Simonton",0,0,1,0,0,NA,NA
+"201","Catherine Rideout","John Stanton",0,1,0,0,0,NA,NA
+"202","Catherine Rideout","John Tirpak",0,1,0,1,0,"Advisory & Friendship","Communicate"
+"203","Catherine Rideout","Bill Uihlein",1,1,0,1,0,"Advisory & Friendship","Communicate"
+"204","Catherine Rideout","Louise Vaughn",0,1,0,0,0,NA,NA
+"205","Catherine Rideout","Cathy Watkins",1,0,0,0,0,NA,NA
+"206","Catherine Rideout","Randy Wilson",1,1,0,1,0,"Science Advice & Friendship","Communicate"
+"207","Cathy Watkins","Stephanie Bruner",1,0,0,0,0,NA,NA
+"208","Cathy Watkins","Resee Collins",1,0,0,0,0,NA,NA
+"209","Cathy Watkins","Dean Demarest",1,0,0,0,0,NA,NA
+"210","Cathy Watkins","Tom Edwards",1,0,0,0,0,NA,NA
+"211","Cathy Watkins","Roy Freeman",1,0,0,0,0,NA,"Communicate"
+"212","Cathy Watkins","Karen Frizzell",1,0,0,0,0,NA,NA
+"213","Cathy Watkins","Cindy Fury",1,0,0,0,0,NA,NA
+"214","Cathy Watkins","Jeffrey Gleason",1,0,0,0,0,NA,NA
+"215","Cathy Watkins","Dawn James",1,0,0,0,0,NA,NA
+"216","Cathy Watkins","Buddy Jones",1,0,0,0,0,NA,NA
+"217","Cathy Watkins","Ulgonda Kirkpatrick",1,0,0,0,0,NA,NA
+"218","Cathy Watkins","Han Mc Linda",1,0,0,0,0,NA,NA
+"219","Cathy Watkins","Michelle Outlaw",1,0,0,0,0,NA,NA
+"220","Cathy Watkins","Carmen Simonton",1,0,0,0,0,NA,NA
+"221","Cathy Watkins","Bill Uihlein",1,0,0,0,0,NA,NA
+"222","Cathy Watkins","Randy Wilson",1,0,0,0,0,NA,NA
+"223","Christopher DeVore","Daniel Adams",0,1,0,1,0,NA,NA
+"224","Christopher DeVore","Roy Freeman",1,0,0,0,0,NA,"Coordinate"
+"225","Christopher DeVore","Emily Granstaff",0,1,0,1,0,NA,"Coordinate"
+"226","Christopher DeVore","Farrand Jones David Green Todd",0,1,0,1,0,NA,"Collaborate"
+"227","Christopher DeVore","Mallory Martin",0,1,0,0,0,NA,"Coordinate"
+"228","Christopher DeVore","Rua Mordecai",0,1,0,1,0,NA,"Coordinate"
+"229","Christopher DeVore","Hilary Morris",0,1,0,1,0,NA,"Coordinate"
+"230","Christopher DeVore","Blair Tirpak",0,1,0,0,0,NA,"Collaborate"
+"231","Christopher DeVore","Louise Vaughn",0,1,0,1,0,NA,"Coordinate"
+"232","Cindy Fury","Daniel Adams",0,0,0,1,0,NA,NA
+"233","Cindy Fury","Laura Brandt",0,1,0,0,0,NA,NA
+"234","Cindy Fury","Steve Brock",0,1,0,0,0,NA,"Coordinate"
+"235","Cindy Fury","Wylie Carr",0,0,0,0,1,"Social Science",NA
+"236","Cindy Fury","Resee Collins",0,0,1,0,0,NA,"Communicate"
+"237","Cindy Fury","Tom Edwards",0,1,0,0,0,NA,NA
+"238","Cindy Fury","Bermudez Garcia Miguel",0,1,0,0,0,NA,NA
+"239","Cindy Fury","Jeffrey Gleason",0,1,0,0,0,NA,NA
+"240","Cindy Fury","Rob Holbrook",0,1,0,0,0,NA,NA
+"241","Cindy Fury","Todd Hopkins Red Todd",0,1,0,0,0,NA,NA
+"242","Cindy Fury","Buddy Jones",1,0,0,0,0,NA,"Coordinate"
+"243","Cindy Fury","Farrand Jones David Green Todd",0,1,0,0,0,NA,NA
+"244","Cindy Fury","Ulgonda Kirkpatrick",0,0,1,0,0,NA,"Communicate"
+"245","Cindy Fury","Knight Mc Steven Keith",0,1,0,0,0,NA,"Collaborate"
+"246","Cindy Fury","Rua Mordecai",0,1,0,0,0,NA,NA
+"247","Cindy Fury","Hilary Morris",0,1,0,0,0,NA,NA
+"248","Cindy Fury","Brent Murry",0,1,0,0,0,NA,NA
+"249","Cindy Fury","Michelle Outlaw",0,0,1,0,0,NA,"Communicate"
+"250","Cindy Fury","Catherine Rideout",0,1,0,0,0,NA,"Coordinate"
+"251","Cindy Fury","Carmen Simonton",0,0,1,0,0,NA,"Communicate"
+"252","Cindy Fury","John Stanton",0,1,0,0,0,NA,"Collaborate"
+"253","Cindy Fury","Beth Stys",0,1,0,0,0,NA,NA
+"254","Cindy Fury","John Tirpak",0,1,0,0,0,NA,NA
+"255","Cindy Fury","Bill Uihlein",0,1,0,0,0,NA,NA
+"256","Cindy Fury","Louise Vaughn",0,0,0,0,1,NA,NA
+"257","Cindy Fury","Cathy Watkins",1,0,0,0,0,NA,"Collaborate"
+"258","Cindy Fury","Randy Wilson",0,1,0,0,0,NA,"Collaborate"
+"259","Daniel Adams","Yvonne Allen",0,1,0,1,0,NA,"Coordinate"
+"260","Daniel Adams","Jose Barrios",0,1,0,1,0,NA,NA
+"261","Daniel Adams","Laura Brandt",0,0,0,1,0,NA,"Coordinate"
+"262","Daniel Adams","Vore De Christopher",0,1,0,1,0,NA,"Coordinate"
+"263","Daniel Adams","Emily Granstaff",0,1,0,1,0,NA,NA
+"264","Daniel Adams","Todd Hopkins Red Todd",0,0,0,1,0,NA,"Coordinate"
+"265","Daniel Adams","Farrand Jones David Green Todd",0,1,0,1,0,NA,"Coordinate"
+"266","Daniel Adams","Amy Keister",0,1,0,1,0,NA,"Coordinate"
+"267","Daniel Adams","Rua Mordecai",0,1,0,1,0,NA,"Coordinate"
+"268","Daniel Adams","Brent Murry",0,1,0,1,0,NA,"Coordinate"
+"269","Dawn James","Stephanie Bruner",1,0,0,0,0,NA,NA
+"270","Dawn James","Resee Collins",1,0,0,0,0,NA,NA
+"271","Dawn James","Dean Demarest",1,1,0,0,0,NA,"Communicate"
+"272","Dawn James","Tom Edwards",1,1,0,0,0,NA,"Communicate"
+"273","Dawn James","Roy Freeman",1,0,0,0,0,NA,NA
+"274","Dawn James","Karen Frizzell",1,1,0,0,0,NA,NA
+"275","Dawn James","Jeffrey Gleason",1,1,0,0,0,NA,"Coordinate"
+"276","Dawn James","Buddy Jones",1,1,0,0,0,NA,NA
+"277","Dawn James","Han Mc Linda",1,1,0,0,0,NA,"Communicate"
+"278","Dawn James","Michelle Outlaw",1,0,1,0,0,NA,NA
+"279","Dawn James","Carmen Simonton",1,0,1,0,0,NA,NA
+"280","Dawn James","Cathy Watkins",1,1,0,0,0,NA,NA
+"281","Dawn James","Randy Wilson",1,1,0,0,0,NA,"Collaborate"
+"282","Dean Demarest","Jose Barrios",0,1,0,1,0,NA,"Communicate"
+"283","Dean Demarest","Bill Bartush",0,1,0,1,0,NA,NA
+"284","Dean Demarest","Laura Brandt",1,0,0,1,0,NA,"Coordinate"
+"285","Dean Demarest","Steve Brock",0,1,0,1,0,NA,NA
+"286","Dean Demarest","Stephanie Bruner",1,0,0,0,0,NA,NA
+"287","Dean Demarest","Wylie Carr",0,0,0,1,0,NA,NA
+"288","Dean Demarest","Resee Collins",0,0,1,0,0,NA,NA
+"289","Dean Demarest","Dean Demarest",1,1,1,1,0,NA,NA
+"290","Dean Demarest","Tom Edwards",0,1,0,1,0,NA,NA
+"291","Dean Demarest","Blaine Elliott",0,1,0,1,0,NA,NA
+"292","Dean Demarest","Roy Freeman",1,0,0,0,0,NA,"Communicate"
+"293","Dean Demarest","Karen Frizzell",1,0,0,0,0,NA,NA
+"294","Dean Demarest","Cindy Fury",1,0,0,1,0,NA,NA
+"295","Dean Demarest","Jeffrey Gleason",0,1,0,1,0,NA,NA
+"296","Dean Demarest","Rob Holbrook",1,1,0,1,0,NA,NA
+"297","Dean Demarest","Dawn James",1,0,0,0,0,NA,NA
+"298","Dean Demarest","Buddy Jones",1,0,0,0,0,NA,NA
+"299","Dean Demarest","Farrand Jones David Green Todd",0,1,0,1,0,NA,"Collaborate"
+"300","Dean Demarest","Ulgonda Kirkpatrick",0,0,1,0,0,NA,NA
+"301","Dean Demarest","Han Mc Linda",1,0,0,0,0,NA,NA
+"302","Dean Demarest","Knight Mc Steven Keith",0,1,0,1,0,NA,NA
+"303","Dean Demarest","Anne Mini",0,1,0,1,0,NA,NA
+"304","Dean Demarest","Michelle Outlaw",0,0,1,0,0,NA,NA
+"305","Dean Demarest","Catherine Rideout",0,1,0,0,0,NA,NA
+"306","Dean Demarest","Carmen Simonton",0,0,1,0,0,NA,NA
+"307","Dean Demarest","John Stanton",1,1,0,1,0,NA,NA
+"308","Dean Demarest","John Tirpak",0,1,0,1,0,NA,"Communicate"
+"309","Dean Demarest","Bill Uihlein",1,1,1,1,0,NA,"Communicate"
+"310","Dean Demarest","Cathy Watkins",1,0,0,0,0,NA,NA
+"311","Dean Demarest","Randy Wilson",0,1,1,1,0,NA,NA
+"312","Emily Granstaff","Daniel Adams",0,1,0,1,1,"As a fellow program staffer also located in the Tennessee Field Office, other duties or discussions arise.","Collaborate"
+"313","Emily Granstaff","Yvonne Allen",0,1,0,1,0,NA,"Coordinate"
+"314","Emily Granstaff","Jose Barrios",0,0,0,1,0,NA,"Coordinate"
+"315","Emily Granstaff","Laura Brandt",0,0,0,1,0,NA,"Coordinate"
+"316","Emily Granstaff","Vore De Christopher",0,1,0,1,1,NA,"Collaborate"
+"317","Emily Granstaff","Roy Freeman",1,0,0,0,0,NA,"Coordinate"
+"318","Emily Granstaff","Farrand Jones David Green Todd",0,1,0,1,0,NA,"Collaborate"
+"319","Emily Granstaff","Mallory Martin",0,1,0,0,0,NA,"Collaborate"
+"320","Emily Granstaff","Rua Mordecai",1,1,0,0,0,NA,NA
+"321","Emily Granstaff","Hilary Morris",0,0,0,1,0,NA,"Collaborate"
+"322","Emily Granstaff","Brent Murry",0,1,0,0,0,NA,"Collaborate"
+"323","Emily Granstaff","Blair Tirpak",0,0,0,1,0,NA,"Collaborate"
+"324","Emily Granstaff","John Tirpak",1,0,0,0,0,NA,"Collaborate"
+"325","Emily Granstaff","Bill Uihlein",1,1,0,0,0,NA,"Collaborate"
+"326","Emily Granstaff","Louise Vaughn",0,0,0,1,0,NA,"Collaborate"
+"327","Green Todd","Daniel Adams",1,1,0,1,0,NA,NA
+"328","Green Todd","Yvonne Allen",0,1,0,1,0,NA,"Collaborate"
+"329","Green Todd","Jose Barrios",1,1,0,1,0,NA,"Collaborate"
+"330","Green Todd","Bill Bartush",0,1,0,1,0,NA,"Collaborate"
+"331","Green Todd","Laura Brandt",0,0,0,1,0,NA,NA
+"332","Green Todd","Dean Demarest",0,1,0,1,0,NA,"Coordinate"
+"333","Green Todd","Vore De Christopher",1,1,0,1,0,NA,NA
+"334","Green Todd","Blaine Elliott",0,0,0,1,0,NA,NA
+"335","Green Todd","Roy Freeman",1,0,0,0,0,NA,NA
+"336","Green Todd","Bermudez Garcia Miguel",0,1,0,1,0,NA,NA
+"337","Green Todd","Jeffrey Gleason",0,1,0,1,0,NA,NA
+"338","Green Todd","Emily Granstaff",0,1,0,1,0,NA,NA
+"339","Green Todd","Rob Holbrook",0,1,0,1,0,NA,"Coordinate"
+"340","Green Todd","Todd Hopkins Red Todd",0,1,0,0,0,NA,NA
+"341","Green Todd","Buddy Jones",1,0,0,0,0,NA,NA
+"342","Green Todd","Amy Keister",0,0,0,1,0,NA,"Collaborate"
+"343","Green Todd","Mallory Martin",0,1,0,0,0,NA,NA
+"344","Green Todd","Knight Mc Steven Keith",1,1,0,1,0,NA,"Collaborate"
+"345","Green Todd","Anne Mini",0,1,0,1,0,NA,"Collaborate"
+"346","Green Todd","Rua Mordecai",0,1,0,1,0,NA,NA
+"347","Green Todd","Hilary Morris",0,1,0,0,0,NA,NA
+"348","Green Todd","Brent Murry",0,1,0,1,0,NA,NA
+"349","Green Todd","Catherine Rideout",0,1,0,1,0,NA,"Coordinate"
+"350","Green Todd","Beth Stys",0,1,0,1,0,NA,NA
+"351","Green Todd","Blair Tirpak",0,0,0,1,0,NA,"Coordinate"
+"352","Green Todd","John Tirpak",0,1,0,1,0,NA,NA
+"353","Green Todd","Bill Uihlein",1,1,0,1,1,NA,NA
+"354","Green Todd","Louise Vaughn",0,1,0,0,0,NA,NA
+"355","Green Todd","Randy Wilson",0,1,0,1,0,NA,"Coordinate"
+"356","Hilary Morris","Daniel Adams",0,1,0,0,0,NA,NA
+"357","Hilary Morris","Yvonne Allen",0,1,0,0,0,NA,NA
+"358","Hilary Morris","Jose Barrios",0,1,0,0,0,NA,NA
+"359","Hilary Morris","Bill Bartush",0,1,0,0,0,NA,"Communicate"
+"360","Hilary Morris","Laura Brandt",0,0,0,0,1,"Communicating progress toward Science Apps OKRs",NA
+"361","Hilary Morris","Stephanie Bruner",1,0,0,0,0,NA,NA
+"362","Hilary Morris","Wylie Carr",0,1,0,0,0,NA,"Coordinate"
+"363","Hilary Morris","Vore De Christopher",0,1,0,0,0,NA,NA
+"364","Hilary Morris","Roy Freeman",1,0,0,0,0,NA,NA
+"365","Hilary Morris","Cindy Fury",0,0,0,0,1,NA,"Communicate"
+"366","Hilary Morris","Bermudez Garcia Miguel",0,1,0,0,0,NA,NA
+"367","Hilary Morris","Emily Granstaff",0,1,0,0,0,NA,NA
+"368","Hilary Morris","Rob Holbrook",0,1,0,0,0,NA,"Communicate"
+"369","Hilary Morris","Todd Hopkins Red Todd",0,0,0,0,1,NA,NA
+"370","Hilary Morris","Farrand Jones David Green Todd",0,1,0,0,0,NA,NA
+"371","Hilary Morris","Amy Keister",0,1,0,0,0,NA,NA
+"372","Hilary Morris","Mallory Martin",0,1,0,0,0,NA,NA
+"373","Hilary Morris","Knight Mc Steven Keith",0,1,0,0,0,NA,"Collaborate"
+"374","Hilary Morris","Anne Mini",0,1,0,0,0,NA,"Collaborate"
+"375","Hilary Morris","Rua Mordecai",0,1,0,0,0,NA,NA
+"376","Hilary Morris","Hilary Morris",0,1,0,0,0,NA,NA
+"377","Hilary Morris","Brent Murry",0,1,0,0,0,NA,NA
+"378","Hilary Morris","Catherine Rideout",0,1,0,0,0,NA,"Coordinate"
+"379","Hilary Morris","John Stanton",0,1,0,0,0,NA,"Coordinate"
+"380","Hilary Morris","Beth Stys",0,1,0,0,0,NA,NA
+"381","Hilary Morris","Blair Tirpak",0,1,0,0,0,NA,NA
+"382","Hilary Morris","John Tirpak",0,1,0,0,0,NA,"Collaborate"
+"383","Hilary Morris","Bill Uihlein",0,1,0,0,1,NA,NA
+"384","Hilary Morris","Louise Vaughn",0,1,0,0,0,NA,NA
+"385","Jeff Gleason","Dean Demarest",1,0,1,0,0,NA,NA
+"386","Jeff Gleason","Cindy Fury",0,0,1,0,0,NA,NA
+"387","Jeff Gleason","Rob Holbrook",0,1,0,1,0,NA,NA
+"388","Jeff Gleason","Buddy Jones",1,0,0,0,0,NA,NA
+"389","Jeff Gleason","Farrand Jones David Green Todd",0,1,0,1,0,NA,"Coordinate"
+"390","Jeff Gleason","Rachel Kirpes",0,1,0,0,0,NA,NA
+"391","Jeff Gleason","Han Mc Linda",1,0,0,0,0,NA,NA
+"392","Jeff Gleason","Knight Mc Steven Keith",0,1,0,1,0,NA,NA
+"393","Jeff Gleason","Anne Mini",0,1,0,1,0,NA,NA
+"394","Jeff Gleason","Catherine Rideout",0,1,0,1,0,NA,NA
+"395","Jeff Gleason","John Stanton",0,1,0,1,0,NA,NA
+"396","Jeff Gleason","John Tirpak",0,1,0,1,0,NA,NA
+"397","Jeff Gleason","Bill Uihlein",0,1,0,1,0,NA,NA
+"398","Jeff Gleason","Cathy Watkins",1,0,0,0,0,NA,NA
+"399","Jeff Gleason","Randy Wilson",1,1,0,1,0,NA,NA
+"400","John Stanton","Yvonne Allen",0,1,0,1,1,"Regional Sciene Committee",NA
+"401","John Stanton","Laura Brandt",0,1,0,1,1,"Regional Science Committee",NA
+"402","John Stanton","Wylie Carr",0,0,0,0,1,"Regional Waterfowl Teams",NA
+"403","John Stanton","Resee Collins",0,0,1,0,0,NA,"Collaborate"
+"404","John Stanton","Dean Demarest",1,1,0,1,1,NA,"Coordinate"
+"405","John Stanton","Tom Edwards",0,1,0,0,1,NA,"Collaborate"
+"406","John Stanton","Blaine Elliott",0,0,0,0,1,NA,NA
+"407","John Stanton","Roy Freeman",1,0,0,0,0,NA,"Communicate"
+"408","John Stanton","Karen Frizzell",1,0,0,0,1,NA,"Collaborate"
+"409","John Stanton","Cindy Fury",0,1,0,1,1,NA,"Collaborate"
+"410","John Stanton","Bermudez Garcia Miguel",0,0,0,1,0,NA,NA
+"411","John Stanton","Jeffrey Gleason",0,0,0,1,1,NA,"Communicate"
+"412","John Stanton","Dawn James",1,0,0,0,1,NA,"Collaborate"
+"413","John Stanton","Buddy Jones",1,0,0,0,0,NA,"Collaborate"
+"414","John Stanton","Amy Keister",0,1,0,1,1,NA,NA
+"415","John Stanton","Ulgonda Kirkpatrick",0,0,1,1,1,NA,"Collaborate"
+"416","John Stanton","Knight Mc Steven Keith",0,1,0,0,1,NA,NA
+"417","John Stanton","Anne Mini",0,1,0,1,0,NA,NA
+"418","John Stanton","Rua Mordecai",0,1,0,1,1,NA,NA
+"419","John Stanton","Hilary Morris",0,1,0,0,1,NA,NA
+"420","John Stanton","Michelle Outlaw",0,0,1,0,1,NA,"Coordinate"
+"421","John Stanton","Catherine Rideout",1,1,0,0,1,NA,NA
+"422","John Stanton","Carmen Simonton",0,0,1,0,1,NA,"Coordinate"
+"423","John Stanton","Bill Uihlein",1,0,1,0,1,NA,"Communicate"
+"424","John Stanton","Louise Vaughn",0,1,0,0,0,NA,NA
+"425","John Stanton","Cathy Watkins",1,0,0,0,0,NA,NA
+"426","John Stanton","Randy Wilson",1,1,0,1,1,NA,"Communicate"
+"427","John Tirpak","Yvonne Allen",1,1,0,1,0,NA,"Coordinate"
+"428","John Tirpak","Laura Brandt",0,0,0,1,0,NA,"Collaborate"
+"429","John Tirpak","Stephanie Bruner",1,0,0,0,0,NA,"Communicate"
+"430","John Tirpak","Wylie Carr",1,1,0,1,0,NA,"Collaborate"
+"431","John Tirpak","Dean Demarest",0,1,0,1,0,NA,NA
+"432","John Tirpak","Roy Freeman",1,0,0,0,0,NA,"Communicate"
+"433","John Tirpak","Bermudez Garcia Miguel",0,1,1,1,0,NA,"Collaborate"
+"434","John Tirpak","Jeffrey Gleason",0,1,1,1,0,NA,NA
+"435","John Tirpak","Emily Granstaff",0,1,0,0,0,NA,NA
+"436","John Tirpak","Todd Hopkins Red Todd",1,1,0,1,0,NA,NA
+"437","John Tirpak","Farrand Jones David Green Todd",0,1,0,1,0,NA,"Coordinate"
+"438","John Tirpak","Amy Keister",0,1,0,1,0,NA,"Coordinate"
+"439","John Tirpak","Rachel Kirpes",1,1,1,1,0,NA,"Coordinate"
+"440","John Tirpak","Mallory Martin",1,1,0,1,0,NA,"Collaborate"
+"441","John Tirpak","Han Mc Linda",1,0,0,0,0,NA,NA
+"442","John Tirpak","Knight Mc Steven Keith",0,1,0,1,0,NA,NA
+"443","John Tirpak","Anne Mini",0,0,0,1,0,NA,NA
+"444","John Tirpak","Rua Mordecai",0,1,0,1,0,NA,"Collaborate"
+"445","John Tirpak","Hilary Morris",0,1,0,1,0,NA,"Coordinate"
+"446","John Tirpak","Brent Murry",0,1,0,1,0,NA,NA
+"447","John Tirpak","Catherine Rideout",0,1,0,1,0,NA,NA
+"448","John Tirpak","Beth Stys",0,1,0,1,0,NA,"Collaborate"
+"449","John Tirpak","Blair Tirpak",0,1,0,1,0,NA,"Coordinate"
+"450","John Tirpak","Bill Uihlein",1,1,0,1,0,NA,"Collaborate"
+"451","John Tirpak","Louise Vaughn",0,1,0,1,0,NA,"Coordinate"
+"452","John Tirpak","Randy Wilson",0,1,0,1,0,NA,"Coordinate"
+"453","Jose Barrios","Daniel Adams",0,0,0,1,0,NA,NA
+"454","Jose Barrios","Yvonne Allen",0,1,0,1,0,NA,NA
+"455","Jose Barrios","Laura Brandt",0,1,0,1,0,NA,NA
+"456","Jose Barrios","Stephanie Bruner",1,0,0,0,0,NA,NA
+"457","Jose Barrios","Dean Demarest",0,1,0,0,0,NA,"Collaborate"
+"458","Jose Barrios","Roy Freeman",1,0,0,0,0,NA,NA
+"459","Jose Barrios","Bermudez Garcia Miguel",0,1,0,1,0,NA,NA
+"460","Jose Barrios","Emily Granstaff",0,0,0,1,0,NA,NA
+"461","Jose Barrios","Todd Hopkins Red Todd",0,1,0,1,0,NA,NA
+"462","Jose Barrios","Farrand Jones David Green Todd",1,1,0,1,0,NA,"Collaborate"
+"463","Jose Barrios","Amy Keister",0,0,0,1,0,NA,NA
+"464","Jose Barrios","Mallory Martin",0,1,0,0,0,NA,"Communicate"
+"465","Jose Barrios","Rua Mordecai",0,1,0,0,0,NA,"Coordinate"
+"466","Jose Barrios","Brent Murry",0,1,0,0,0,NA,NA
+"467","Jose Barrios","Bill Uihlein",1,1,0,0,0,NA,"Coordinate"
+"468","Karen Frizzell","Yvonne Allen",1,0,0,0,0,NA,"Coordinate"
+"469","Karen Frizzell","Stephanie Bruner",1,0,0,0,0,NA,"Collaborate"
+"470","Karen Frizzell","Resee Collins",1,0,0,0,0,NA,NA
+"471","Karen Frizzell","Dean Demarest",1,0,0,0,0,NA,"Collaborate"
+"472","Karen Frizzell","Tom Edwards",1,0,0,0,0,NA,NA
+"473","Karen Frizzell","Roy Freeman",1,0,0,0,0,"HR","Collaborate"
+"474","Karen Frizzell","Cindy Fury",1,0,0,0,0,NA,"Collaborate"
+"475","Karen Frizzell","Rob Holbrook",1,0,0,0,0,NA,NA
+"476","Karen Frizzell","Todd Hopkins Red Todd",1,0,0,0,0,"HR","Collaborate"
+"477","Karen Frizzell","Dawn James",1,0,0,0,0,NA,NA
+"478","Karen Frizzell","Buddy Jones",1,0,0,0,0,"HR","Collaborate"
+"479","Karen Frizzell","Ulgonda Kirkpatrick",1,0,0,0,0,NA,NA
+"480","Karen Frizzell","Han Mc Linda",1,0,0,0,0,NA,NA
+"481","Karen Frizzell","Catherine Rideout",1,0,0,0,0,NA,"Collaborate"
+"482","Karen Frizzell","John Stanton",1,0,0,0,0,NA,"Collaborate"
+"483","Karen Frizzell","Bill Uihlein",1,0,0,0,0,"HR","Collaborate"
+"484","Karen Frizzell","Louise Vaughn",1,0,0,0,0,NA,"Coordinate"
+"485","Karen Frizzell","Cathy Watkins",1,0,0,0,0,NA,NA
+"486","Karen Frizzell","Randy Wilson",1,0,0,0,0,"HR","Collaborate"
+"487","Keith McKnight","Yvonne Allen",0,0,0,1,0,NA,NA
+"488","Keith McKnight","Bill Bartush",1,1,0,0,0,NA,"Collaborate"
+"489","Keith McKnight","Steve Brock",1,1,0,0,0,NA,NA
+"490","Keith McKnight","Wylie Carr",0,0,0,1,0,NA,NA
+"491","Keith McKnight","Dean Demarest",1,1,0,0,0,NA,"Collaborate"
+"492","Keith McKnight","Tom Edwards",0,1,0,0,0,NA,NA
+"493","Keith McKnight","Blaine Elliott",1,1,0,1,0,NA,"Collaborate"
+"494","Keith McKnight","Roy Freeman",1,0,0,0,0,NA,NA
+"495","Keith McKnight","Jeffrey Gleason",0,1,0,0,0,NA,NA
+"496","Keith McKnight","Rob Holbrook",0,1,0,0,0,NA,NA
+"497","Keith McKnight","Buddy Jones",1,0,0,0,0,NA,NA
+"498","Keith McKnight","Farrand Jones David Green Todd",0,1,0,1,0,NA,NA
+"499","Keith McKnight","Mallory Martin",0,1,0,0,0,NA,NA
+"500","Keith McKnight","Han Mc Linda",1,0,0,0,0,NA,"Collaborate"
+"501","Keith McKnight","Anne Mini",0,1,0,1,0,NA,"Collaborate"
+"502","Keith McKnight","Rua Mordecai",0,0,0,1,0,NA,NA
+"503","Keith McKnight","Catherine Rideout",0,1,0,0,0,NA,NA
+"504","Keith McKnight","Blair Tirpak",0,0,0,1,0,NA,NA
+"505","Keith McKnight","Bill Uihlein",1,0,0,0,0,NA,NA
+"506","Keith McKnight","Randy Wilson",1,1,0,1,0,NA,"Coordinate"
+"507","Laura Brandt","Daniel Adams",0,0,0,1,0,NA,"Collaborate"
+"508","Laura Brandt","Yvonne Allen",0,0,0,1,0,NA,"Collaborate"
+"509","Laura Brandt","Roy Freeman",1,0,0,0,0,NA,"Coordinate"
+"510","Laura Brandt","Cindy Fury",0,0,0,0,1,NA,NA
+"511","Laura Brandt","Emily Granstaff",0,0,0,1,0,NA,"Collaborate"
+"512","Laura Brandt","Todd Hopkins Red Todd",0,0,0,1,0,NA,"Coordinate"
+"513","Laura Brandt","Farrand Jones David Green Todd",0,0,0,1,0,NA,NA
+"514","Laura Brandt","Mallory Martin",0,0,0,1,0,NA,"Collaborate"
+"515","Laura Brandt","Brent Murry",0,0,0,1,0,NA,"Collaborate"
+"516","Laura Brandt","Bill Uihlein",0,0,0,0,1,"Whiskey Bent & Hell Bound ;)","Collaborate"
+"517","Linda McHan","Bill Bartush",1,0,0,0,1,"Communicate",NA
+"518","Linda McHan","Steve Brock",1,0,0,0,1,"Collaborate",NA
+"519","Linda McHan","Stephanie Bruner",1,0,0,0,0,NA,"Communicate"
+"520","Linda McHan","Dean Demarest",1,0,0,0,0,NA,"Communicate"
+"521","Linda McHan","Blaine Elliott",1,0,0,0,1,NA,NA
+"522","Linda McHan","Roy Freeman",1,0,0,0,0,NA,"Communicate"
+"523","Linda McHan","Karen Frizzell",1,0,0,0,0,NA,NA
+"524","Linda McHan","Jeffrey Gleason",1,0,0,0,0,NA,NA
+"525","Linda McHan","Dawn James",1,0,0,0,0,NA,"Collaborate"
+"526","Linda McHan","Buddy Jones",1,0,0,0,0,NA,"Collaborate"
+"527","Linda McHan","Knight Mc Steven Keith",1,0,0,0,0,NA,"Communicate"
+"528","Linda McHan","Anne Mini",1,0,0,0,0,NA,NA
+"529","Linda McHan","Bill Uihlein",1,0,0,0,1,NA,"Coordinate"
+"530","Linda McHan","Cathy Watkins",1,0,0,0,0,NA,"Collaborate"
+"531","Linda McHan","Randy Wilson",1,0,0,0,1,NA,"Coordinate"
+"532","Louise Vaughn","Daniel Adams",0,1,0,1,1,"I've reached out to Daniel to help with organizing meetings",NA
+"533","Louise Vaughn","Yvonne Allen",0,0,0,1,1,"I consider Yvonne as an expert resource to help with user support relating to aquatic resources and someone I need to touch base with as FAC liason. Also she is a source to generate content for weekly notes. I might work with her more if she is or becomes more involved with the SCA",NA
+"534","Louise Vaughn","Laura Brandt",0,0,0,1,1,"Laura is a resource and I've worked with her to develop OKRs and to understand more about the USGS Coop projects",NA
+"535","Louise Vaughn","Wylie Carr",0,0,0,1,0,NA,NA
+"536","Louise Vaughn","Vore De Christopher",0,1,0,1,1,NA,NA
+"537","Louise Vaughn","Roy Freeman",0,0,0,0,1,NA,NA
+"538","Louise Vaughn","Cindy Fury",0,0,0,0,1,NA,"Coordinate"
+"539","Louise Vaughn","Bermudez Garcia Miguel",0,1,0,1,1,NA,NA
+"540","Louise Vaughn","Emily Granstaff",0,1,0,1,1,NA,NA
+"541","Louise Vaughn","Todd Hopkins Red Todd",0,1,0,1,1,NA,NA
+"542","Louise Vaughn","Farrand Jones David Green Todd",0,1,0,1,1,NA,NA
+"543","Louise Vaughn","Amy Keister",0,1,0,1,1,NA,NA
+"544","Louise Vaughn","Mallory Martin",1,1,0,1,1,NA,NA
+"545","Louise Vaughn","Rua Mordecai",0,1,0,1,1,NA,NA
+"546","Louise Vaughn","Hilary Morris",0,1,0,1,1,NA,NA
+"547","Louise Vaughn","Brent Murry",0,1,0,1,1,NA,NA
+"548","Louise Vaughn","Catherine Rideout",0,0,0,0,1,NA,NA
+"549","Louise Vaughn","John Stanton",0,1,0,0,1,NA,"Coordinate"
+"550","Louise Vaughn","Beth Stys",0,1,0,1,0,NA,NA
+"551","Louise Vaughn","Blair Tirpak",0,1,0,1,0,NA,NA
+"552","Louise Vaughn","John Tirpak",0,1,0,1,0,NA,NA
+"553","Louise Vaughn","Bill Uihlein",0,1,0,0,1,NA,NA
+"554","Louise Vaughn","Randy Wilson",0,0,0,0,1,NA,"Coordinate"
+"555","Mallory Martin","Daniel Adams",0,1,0,0,0,NA,NA
+"556","Mallory Martin","Yvonne Allen",0,1,0,0,0,NA,"Communicate"
+"557","Mallory Martin","Jose Barrios",0,0,0,1,0,NA,NA
+"558","Mallory Martin","Laura Brandt",0,0,0,1,0,NA,"Coordinate"
+"559","Mallory Martin","Wylie Carr",0,0,0,1,0,NA,NA
+"560","Mallory Martin","Roy Freeman",1,0,0,0,0,NA,"Communicate"
+"561","Mallory Martin","Bermudez Garcia Miguel",0,1,0,0,0,NA,NA
+"562","Mallory Martin","Emily Granstaff",0,1,0,0,0,NA,NA
+"563","Mallory Martin","Todd Hopkins Red Todd",0,1,0,0,0,NA,"Collaborate"
+"564","Mallory Martin","Farrand Jones David Green Todd",0,1,0,1,0,NA,"Communicate"
+"565","Mallory Martin","Amy Keister",0,1,0,0,0,NA,"Communicate"
+"566","Mallory Martin","Rua Mordecai",0,1,0,0,0,NA,"Communicate"
+"567","Mallory Martin","Hilary Morris",0,1,0,0,0,NA,"Communicate"
+"568","Mallory Martin","Beth Stys",0,1,0,0,0,NA,"Communicate"
+"569","Mallory Martin","Blair Tirpak",0,1,0,0,0,NA,NA
+"570","Mallory Martin","Bill Uihlein",1,1,0,1,0,NA,"Coordinate"
+"571","Mallory Martin","Louise Vaughn",0,1,0,0,0,NA,"Communicate"
+"572","Michelle Outlaw","Resee Collins",0,0,1,0,0,NA,"Coordinate"
+"573","Michelle Outlaw","Dean Demarest",0,1,1,0,0,NA,NA
+"574","Michelle Outlaw","Karen Frizzell",1,0,0,0,0,NA,NA
+"575","Michelle Outlaw","Cindy Fury",0,1,1,0,0,NA,NA
+"576","Michelle Outlaw","Buddy Jones",1,0,0,0,0,NA,"Coordinate"
+"577","Michelle Outlaw","Ulgonda Kirkpatrick",0,0,1,0,0,NA,"Coordinate"
+"578","Michelle Outlaw","Carmen Simonton",0,0,1,0,0,NA,"Coordinate"
+"579","Michelle Outlaw","John Stanton",0,0,1,0,0,NA,"Collaborate"
+"580","Michelle Outlaw","Cathy Watkins",1,0,0,0,0,NA,"Coordinate"
+"581","Michelle Outlaw","Randy Wilson",0,1,1,0,0,NA,"Collaborate"
+"582","Miguel Garcia-Bermudez","Jose Barrios",0,1,0,1,0,NA,NA
+"583","Miguel Garcia-Bermudez","Laura Brandt",0,0,0,1,0,NA,NA
+"584","Miguel Garcia-Bermudez","Stephanie Bruner",1,0,0,0,0,NA,NA
+"585","Miguel Garcia-Bermudez","Wylie Carr",0,0,0,1,0,NA,NA
+"586","Miguel Garcia-Bermudez","Roy Freeman",1,0,0,0,0,NA,NA
+"587","Miguel Garcia-Bermudez","Cindy Fury",0,1,0,0,0,NA,"Communicate"
+"588","Miguel Garcia-Bermudez","Emily Granstaff",0,1,0,0,0,NA,NA
+"589","Miguel Garcia-Bermudez","Todd Hopkins Red Todd",0,1,0,1,0,NA,NA
+"590","Miguel Garcia-Bermudez","Farrand Jones David Green Todd",0,1,0,1,0,NA,NA
+"591","Miguel Garcia-Bermudez","Mallory Martin",0,1,0,0,0,NA,NA
+"592","Miguel Garcia-Bermudez","Brent Murry",0,1,0,1,0,NA,NA
+"593","Miguel Garcia-Bermudez","John Stanton",0,1,0,0,0,NA,NA
+"594","Miguel Garcia-Bermudez","Beth Stys",0,1,0,1,0,NA,NA
+"595","Miguel Garcia-Bermudez","John Tirpak",0,1,0,1,0,NA,NA
+"596","Miguel Garcia-Bermudez","Bill Uihlein",1,1,0,0,0,NA,NA
+"597","Miguel Garcia-Bermudez","Louise Vaughn",0,1,0,0,0,NA,NA
+"598","Rachel Kirpes","Yvonne Allen",0,1,0,1,0,NA,"Communicate"
+"599","Rachel Kirpes","Jeffrey Gleason",0,1,0,0,0,NA,NA
+"600","Rachel Kirpes","Todd Hopkins Red Todd",0,1,0,0,0,NA,NA
+"601","Rachel Kirpes","Farrand Jones David Green Todd",0,1,0,1,0,"GIS","Coordinate"
+"602","Rachel Kirpes","Mallory Martin",0,1,0,1,0,"Partnership Coordination","Collaborate"
+"603","Rachel Kirpes","Rua Mordecai",0,1,0,1,0,"User Support","Collaborate"
+"604","Rachel Kirpes","Brent Murry",0,0,0,1,0,NA,NA
+"605","Rachel Kirpes","Beth Stys",0,1,0,1,0,"GIS","Communicate"
+"606","Rachel Kirpes","Blair Tirpak",0,0,0,1,0,"GIS, Data Managment","Coordinate"
+"607","Rachel Kirpes","John Tirpak",0,1,0,1,0,NA,NA
+"608","Rachel Kirpes","Louise Vaughn",0,0,0,1,0,"Use Support","Collaborate"
+"609","Rachel Kirpes","Randy Wilson",0,1,0,0,0,NA,NA
+"610","Randy Wilson","Bill Bartush",0,0,0,1,0,NA,NA
+"611","Randy Wilson","Steve Brock",0,0,0,1,0,NA,NA
+"612","Randy Wilson","Wylie Carr",0,0,0,1,0,NA,"Communicate"
+"613","Randy Wilson","Resee Collins",0,0,1,0,0,NA,NA
+"614","Randy Wilson","Dean Demarest",0,1,1,1,0,NA,NA
+"615","Randy Wilson","Tom Edwards",0,1,0,1,0,NA,NA
+"616","Randy Wilson","Blaine Elliott",0,1,0,1,0,NA,NA
+"617","Randy Wilson","Cindy Fury",0,1,0,1,0,"I worked with Cindy to organize the last SAMB staff call. I'm hoping to find ways to increase my interactions with her and take advantage of her DISC and diversity training","Communicate"
+"618","Randy Wilson","Jeffrey Gleason",1,1,0,1,0,NA,NA
+"619","Randy Wilson","Rob Holbrook",0,1,0,1,0,NA,NA
+"620","Randy Wilson","Buddy Jones",1,0,0,0,0,NA,NA
+"621","Randy Wilson","Ulgonda Kirkpatrick",0,0,1,0,0,NA,NA
+"622","Randy Wilson","Rachel Kirpes",0,0,0,1,1,NA,NA
+"623","Randy Wilson","Han Mc Linda",1,0,0,0,0,NA,NA
+"624","Randy Wilson","Knight Mc Steven Keith",0,1,0,1,0,NA,NA
+"625","Randy Wilson","Anne Mini",0,1,0,1,0,NA,NA
+"626","Randy Wilson","Michelle Outlaw",0,0,1,0,0,NA,NA
+"627","Randy Wilson","Catherine Rideout",0,1,0,1,0,"Catherine is awesome. I got to know her a bit through planning a SAMB staff-wide meeting. I can see more ways that we could work together in terms of helping her learn about how her tools are being used and collecting user feedback","Communicate"
+"628","Randy Wilson","Carmen Simonton",0,0,1,1,0,NA,NA
+"629","Randy Wilson","John Stanton",0,1,1,1,0,"John and I are both members of the CAPEs team - Coastal and Piedmont Ecosystems","Communicate"
+"630","Randy Wilson","John Tirpak",1,1,0,1,0,NA,"Collaborate"
+"631","Resee Collins","Dean Demarest",0,0,1,0,0,NA,NA
+"632","Resee Collins","Cindy Fury",1,0,1,0,0,NA,"Collaborate"
+"633","Resee Collins","Ulgonda Kirkpatrick",0,0,1,0,0,NA,NA
+"634","Resee Collins","Michelle Outlaw",0,0,1,0,0,NA,NA
+"635","Resee Collins","Carmen Simonton",0,0,1,0,1,NA,NA
+"636","Resee Collins","Cathy Watkins",1,0,0,0,0,NA,NA
+"637","Rob Holbrook","Steve Brock",0,1,0,0,0,NA,NA
+"638","Rob Holbrook","Dean Demarest",1,1,0,1,0,NA,"Coordinate"
+"639","Rob Holbrook","Karen Frizzell",1,0,0,0,0,NA,NA
+"640","Rob Holbrook","Jeffrey Gleason",0,1,0,1,0,NA,NA
+"641","Rob Holbrook","Farrand Jones David Green Todd",1,1,0,1,0,NA,NA
+"642","Rob Holbrook","Ulgonda Kirkpatrick",0,0,1,0,0,NA,NA
+"643","Rob Holbrook","Knight Mc Steven Keith",1,1,0,1,0,NA,NA
+"644","Rob Holbrook","Catherine Rideout",1,1,0,1,0,NA,NA
+"645","Roy Freeman","Daniel Adams",1,0,0,0,0,NA,NA
+"646","Roy Freeman","Yvonne Allen",1,0,0,0,0,NA,"Communicate"
+"647","Roy Freeman","Laura Brandt",1,0,0,0,0,NA,"Communicate"
+"648","Roy Freeman","Stephanie Bruner",1,0,0,0,0,NA,NA
+"649","Roy Freeman","Wylie Carr",1,0,0,0,0,NA,"Communicate"
+"650","Roy Freeman","Dean Demarest",1,0,0,0,0,NA,NA
+"651","Roy Freeman","Vore De Christopher",1,0,0,0,0,NA,NA
+"652","Roy Freeman","Bermudez Garcia Miguel",1,0,0,0,0,"climate change training","Collaborate"
+"653","Roy Freeman","Todd Hopkins Red Todd",1,0,0,0,0,NA,"Collaborate"
+"654","Roy Freeman","Buddy Jones",1,0,0,0,0,NA,NA
+"655","Roy Freeman","Farrand Jones David Green Todd",1,0,0,0,0,NA,"Collaborate"
+"656","Roy Freeman","Amy Keister",1,0,0,0,0,NA,"Collaborate"
+"657","Roy Freeman","Mallory Martin",1,0,0,0,0,NA,"Collaborate"
+"658","Roy Freeman","Han Mc Linda",1,0,0,0,0,NA,NA
+"659","Roy Freeman","Knight Mc Steven Keith",1,0,0,0,0,NA,NA
+"660","Roy Freeman","Rua Mordecai",1,0,0,0,0,NA,"Collaborate"
+"661","Roy Freeman","Brent Murry",1,0,0,0,0,"climate change training","Collaborate"
+"662","Roy Freeman","Carmen Simonton",1,0,0,0,0,NA,NA
+"663","Roy Freeman","Beth Stys",1,0,0,0,0,NA,NA
+"664","Roy Freeman","John Tirpak",1,0,0,0,0,NA,"Collaborate"
+"665","Roy Freeman","Bill Uihlein",1,0,0,0,0,NA,"Coordinate"
+"666","Roy Freeman","Louise Vaughn",1,0,0,0,0,"user support/outreach","Collaborate"
+"667","Roy Freeman","Cathy Watkins",1,0,0,0,0,NA,NA
+"668","Roy Freeman","Randy Wilson",1,0,0,0,0,NA,NA
+"669","Rua Mordecai","Daniel Adams",0,1,0,0,0,NA,NA
+"670","Rua Mordecai","Yvonne Allen",0,1,0,0,0,NA,NA
+"671","Rua Mordecai","Jose Barrios",0,1,0,0,0,NA,NA
+"672","Rua Mordecai","Bill Bartush",0,1,0,0,0,NA,NA
+"673","Rua Mordecai","Laura Brandt",0,1,0,0,0,NA,NA
+"674","Rua Mordecai","Stephanie Bruner",1,0,0,0,0,NA,"Collaborate"
+"675","Rua Mordecai","Wylie Carr",0,1,0,0,0,NA,"Communicate"
+"676","Rua Mordecai","Dean Demarest",0,1,0,0,0,NA,"Coordinate"
+"677","Rua Mordecai","Vore De Christopher",0,1,0,0,0,NA,NA
+"678","Rua Mordecai","Roy Freeman",1,0,0,0,0,NA,"Coordinate"
+"679","Rua Mordecai","Cindy Fury",0,1,0,0,0,NA,"Communicate"
+"680","Rua Mordecai","Bermudez Garcia Miguel",0,1,0,0,0,NA,"Communicate"
+"681","Rua Mordecai","Jeffrey Gleason",0,1,0,0,0,NA,"Communicate"
+"682","Rua Mordecai","Emily Granstaff",0,1,0,0,0,NA,NA
+"683","Rua Mordecai","Rob Holbrook",0,1,0,0,0,NA,"Communicate"
+"684","Rua Mordecai","Farrand Jones David Green Todd",0,1,0,0,0,NA,"Communicate"
+"685","Rua Mordecai","Amy Keister",0,1,0,0,0,NA,"Communicate"
+"686","Rua Mordecai","Rachel Kirpes",0,1,0,0,0,NA,NA
+"687","Rua Mordecai","Mallory Martin",0,1,0,0,0,NA,"Communicate"
+"688","Rua Mordecai","Knight Mc Steven Keith",0,1,0,0,0,NA,"Communicate"
+"689","Rua Mordecai","Anne Mini",0,1,0,0,0,NA,NA
+"690","Rua Mordecai","Hilary Morris",0,1,0,0,0,NA,NA
+"691","Rua Mordecai","Brent Murry",0,1,0,0,0,NA,"Communicate"
+"692","Rua Mordecai","Catherine Rideout",0,1,0,0,0,NA,"Communicate"
+"693","Rua Mordecai","John Stanton",0,1,0,0,0,NA,"Communicate"
+"694","Rua Mordecai","Beth Stys",0,1,0,0,0,NA,NA
+"695","Rua Mordecai","Blair Tirpak",0,1,0,0,0,NA,NA
+"696","Rua Mordecai","John Tirpak",0,1,0,0,0,NA,NA
+"697","Rua Mordecai","Bill Uihlein",1,1,0,0,0,NA,"Collaborate"
+"698","Rua Mordecai","Louise Vaughn",0,1,0,0,0,NA,"Communicate"
+"699","Stephanie Bruner","Daniel Adams",1,0,0,0,0,NA,"Coordinate"
+"700","Stephanie Bruner","Yvonne Allen",1,0,0,0,0,NA,"Communicate"
+"701","Stephanie Bruner","Jose Barrios",1,0,0,0,0,NA,"Communicate"
+"702","Stephanie Bruner","Laura Brandt",1,0,0,0,0,NA,"Communicate"
+"703","Stephanie Bruner","Stephanie Bruner",1,0,0,0,0,NA,"Communicate"
+"704","Stephanie Bruner","Wylie Carr",1,0,0,0,0,NA,"Coordinate"
+"705","Stephanie Bruner","Vore De Christopher",1,0,0,0,0,NA,"Coordinate"
+"706","Stephanie Bruner","Roy Freeman",1,0,0,0,0,NA,"Communicate"
+"707","Stephanie Bruner","Karen Frizzell",1,0,0,0,0,NA,NA
+"708","Stephanie Bruner","Cindy Fury",1,0,0,0,0,"""Sustainable Species Goal"" communications team","Communicate"
+"709","Stephanie Bruner","Bermudez Garcia Miguel",1,0,0,0,0,NA,"Communicate"
+"710","Stephanie Bruner","Emily Granstaff",1,0,0,0,0,NA,"Coordinate"
+"711","Stephanie Bruner","Todd Hopkins Red Todd",1,0,0,0,0,"Communicating progress toward Science Apps OKRs","Communicate"
+"712","Stephanie Bruner","Dawn James",1,0,0,0,0,NA,NA
+"713","Stephanie Bruner","Buddy Jones",1,0,0,0,0,NA,NA
+"714","Stephanie Bruner","Farrand Jones David Green Todd",1,0,0,0,0,NA,"Coordinate"
+"715","Stephanie Bruner","Amy Keister",1,0,0,0,0,NA,"Collaborate"
+"716","Stephanie Bruner","Mallory Martin",1,0,0,0,0,NA,"Collaborate"
+"717","Stephanie Bruner","Han Mc Linda",1,0,0,0,0,NA,NA
+"718","Stephanie Bruner","Knight Mc Steven Keith",1,0,0,0,0,NA,"Communicate"
+"719","Stephanie Bruner","Rua Mordecai",1,0,0,0,0,NA,"Collaborate"
+"720","Stephanie Bruner","Hilary Morris",1,0,0,0,0,NA,"Collaborate"
+"721","Stephanie Bruner","Brent Murry",1,0,0,0,0,NA,"Coordinate"
+"722","Stephanie Bruner","Carmen Simonton",1,0,0,0,0,NA,NA
+"723","Stephanie Bruner","John Tirpak",1,0,0,0,0,NA,"Communicate"
+"724","Stephanie Bruner","Bill Uihlein",1,0,0,0,0,"Communicating progress toward Science Apps OKRs","Communicate"
+"725","Stephanie Bruner","Louise Vaughn",1,0,0,0,0,NA,"Collaborate"
+"726","Stephanie Bruner","Cathy Watkins",1,0,0,0,0,NA,NA
+"727","Stephanie Bruner","Randy Wilson",1,0,0,0,0,NA,NA
+"728","Steve Brock","Bill Bartush",0,1,0,0,0,NA,NA
+"729","Steve Brock","Dean Demarest",1,1,0,0,0,NA,NA
+"730","Steve Brock","Blaine Elliott",0,1,0,1,0,NA,"Communicate"
+"731","Steve Brock","Han Mc Linda",1,0,0,0,0,NA,NA
+"732","Steve Brock","Knight Mc Steven Keith",1,1,0,1,0,NA,"Coordinate"
+"733","Steve Brock","Anne Mini",0,1,0,1,0,NA,"Communicate"
+"734","Steve Brock","Randy Wilson",0,1,0,1,0,NA,NA
+"735","Todd Hopkins","Daniel Adams",0,1,0,0,0,NA,NA
+"736","Todd Hopkins","Yvonne Allen",0,1,0,1,0,NA,NA
+"737","Todd Hopkins","Jose Barrios",0,1,0,1,0,NA,NA
+"738","Todd Hopkins","Laura Brandt",0,1,0,1,1,"Structured Decision Making",NA
+"739","Todd Hopkins","Stephanie Bruner",1,0,0,0,0,NA,"Communicate"
+"740","Todd Hopkins","Wylie Carr",0,0,0,1,1,"Human Dimensions",NA
+"741","Todd Hopkins","Roy Freeman",1,0,0,0,0,NA,"Communicate"
+"742","Todd Hopkins","Cindy Fury",0,1,0,1,0,NA,NA
+"743","Todd Hopkins","Bermudez Garcia Miguel",0,1,0,1,0,NA,NA
+"744","Todd Hopkins","Farrand Jones David Green Todd",0,1,0,1,0,NA,NA
+"745","Todd Hopkins","Amy Keister",0,1,0,1,0,NA,NA
+"746","Todd Hopkins","Rachel Kirpes",0,1,0,1,0,NA,NA
+"747","Todd Hopkins","Mallory Martin",0,1,0,1,0,NA,NA
+"748","Todd Hopkins","Rua Mordecai",0,1,0,1,0,NA,NA
+"749","Todd Hopkins","Hilary Morris",0,1,0,1,0,NA,NA
+"750","Todd Hopkins","Beth Stys",0,1,0,1,0,NA,NA
+"751","Todd Hopkins","Blair Tirpak",0,0,0,1,0,NA,NA
+"752","Todd Hopkins","John Tirpak",0,1,0,1,1,NA,NA
+"753","Todd Hopkins","Bill Uihlein",1,1,0,1,0,NA,NA
+"754","Todd Hopkins","Louise Vaughn",0,0,0,1,0,NA,NA
+"755","Todd Hopkins","Randy Wilson",1,1,0,1,0,NA,"Communicate"
+"756","Tom Edwards","Steve Brock",0,1,0,0,0,NA,"Communicate"
+"757","Tom Edwards","Resee Collins",0,0,0,1,0,NA,NA
+"758","Tom Edwards","Dean Demarest",1,1,0,1,0,NA,NA
+"759","Tom Edwards","Blaine Elliott",0,1,0,1,0,NA,"Communicate"
+"760","Tom Edwards","Karen Frizzell",0,0,0,1,0,NA,NA
+"761","Tom Edwards","Cindy Fury",0,1,0,1,0,NA,NA
+"762","Tom Edwards","Dawn James",0,0,0,1,0,NA,NA
+"763","Tom Edwards","Buddy Jones",1,0,0,0,0,NA,NA
+"764","Tom Edwards","Ulgonda Kirkpatrick",0,0,0,1,0,NA,NA
+"765","Tom Edwards","Knight Mc Steven Keith",0,1,0,1,0,NA,"Communicate"
+"766","Tom Edwards","Anne Mini",0,1,0,1,0,NA,"Communicate"
+"767","Tom Edwards","Michelle Outlaw",0,0,1,1,0,NA,NA
+"768","Tom Edwards","Catherine Rideout",0,1,0,1,0,NA,NA
+"769","Tom Edwards","Carmen Simonton",0,0,1,0,0,NA,NA
+"770","Tom Edwards","John Stanton",0,1,0,1,0,NA,NA
+"771","Tom Edwards","Cathy Watkins",1,0,0,0,0,NA,NA
+"772","Tom Edwards","Randy Wilson",0,1,0,1,0,NA,"Communicate"
+"773","Ulgonda Kirkpatrick","Resee Collins",0,0,1,0,0,NA,"Collaborate"
+"774","Ulgonda Kirkpatrick","Dean Demarest",0,0,1,0,0,NA,"Collaborate"
+"775","Ulgonda Kirkpatrick","Tom Edwards",0,0,0,1,0,NA,NA
+"776","Ulgonda Kirkpatrick","Cindy Fury",0,0,1,1,0,NA,"Coordinate"
+"777","Ulgonda Kirkpatrick","Buddy Jones",1,0,0,0,0,NA,"Coordinate"
+"778","Ulgonda Kirkpatrick","Michelle Outlaw",0,0,1,0,0,NA,"Collaborate"
+"779","Ulgonda Kirkpatrick","Carmen Simonton",0,0,1,1,0,NA,NA
+"780","Ulgonda Kirkpatrick","John Stanton",0,0,1,1,0,NA,"Coordinate"
+"781","Ulgonda Kirkpatrick","Cathy Watkins",1,0,0,0,0,NA,NA
+"782","Ulgonda Kirkpatrick","Randy Wilson",0,0,1,1,0,NA,"Coordinate"
+"783","Wylie Carr","Yvonne Allen",0,0,0,0,1,"Internal committees","Collaborate"
+"784","Wylie Carr","Bill Bartush",0,1,0,0,0,NA,NA
+"785","Wylie Carr","Laura Brandt",0,0,0,1,0,NA,"Collaborate"
+"786","Wylie Carr","Stephanie Bruner",1,0,0,0,0,NA,"Communicate"
+"787","Wylie Carr","Roy Freeman",1,0,0,0,0,NA,"Communicate"
+"788","Wylie Carr","Cindy Fury",0,0,0,1,1,NA,NA
+"789","Wylie Carr","Todd Hopkins Red Todd",1,1,0,1,0,NA,"Collaborate"
+"790","Wylie Carr","Farrand Jones David Green Todd",0,1,0,0,0,NA,"Collaborate"
+"791","Wylie Carr","Amy Keister",0,0,0,1,0,NA,"Collaborate"
+"792","Wylie Carr","Rachel Kirpes",0,0,0,0,1,NA,NA
+"793","Wylie Carr","Mallory Martin",1,1,0,1,0,NA,"Coordinate"
+"794","Wylie Carr","Knight Mc Steven Keith",0,1,0,1,0,NA,NA
+"795","Wylie Carr","Anne Mini",0,1,0,1,0,NA,NA
+"796","Wylie Carr","Rua Mordecai",0,1,0,1,0,NA,"Coordinate"
+"797","Wylie Carr","Hilary Morris",0,1,0,1,0,NA,NA
+"798","Wylie Carr","Brent Murry",0,0,0,1,0,NA,"Coordinate"
+"799","Wylie Carr","Catherine Rideout",0,0,0,1,0,NA,NA
+"800","Wylie Carr","Carmen Simonton",0,0,0,0,1,NA,NA
+"801","Wylie Carr","Beth Stys",0,1,0,0,0,NA,NA
+"802","Wylie Carr","John Tirpak",0,1,0,1,1,NA,NA
+"803","Wylie Carr","Bill Uihlein",1,1,0,1,0,NA,"Coordinate"
+"804","Wylie Carr","Louise Vaughn",0,0,0,1,0,NA,NA
+"805","Wylie Carr","Randy Wilson",1,0,0,1,0,NA,NA
+"806","Yvonne Allen","Daniel Adams",0,0,0,1,0,NA,"Coordinate"
+"807","Yvonne Allen","Jose Barrios",0,0,0,1,0,NA,"Coordinate"
+"808","Yvonne Allen","Laura Brandt",0,0,0,1,0,NA,"Coordinate"
+"809","Yvonne Allen","Blaine Elliott",0,0,0,1,0,NA,NA
+"810","Yvonne Allen","Emily Granstaff",0,0,0,1,0,NA,"Coordinate"
+"811","Yvonne Allen","Todd Hopkins Red Todd",1,0,0,0,0,NA,"Coordinate"
+"812","Yvonne Allen","Farrand Jones David Green Todd",0,1,0,0,0,NA,"Coordinate"
+"813","Yvonne Allen","Amy Keister",0,0,0,1,0,NA,"Coordinate"
+"814","Yvonne Allen","Rachel Kirpes",0,0,0,1,0,NA,NA
+"815","Yvonne Allen","Knight Mc Steven Keith",0,1,0,1,0,NA,"Coordinate"
+"816","Yvonne Allen","Anne Mini",0,0,0,1,0,NA,NA
+"817","Yvonne Allen","Brent Murry",0,1,0,0,0,NA,"Coordinate"
+"818","Yvonne Allen","Blair Tirpak",0,0,0,1,0,NA,NA
+"819","Yvonne Allen","John Tirpak",0,1,0,1,0,NA,"Coordinate"
+"820","Yvonne Allen","Bill Uihlein",1,0,0,0,0,NA,"Coordinate"
