@@ -8,6 +8,8 @@ output: html_document
 ```{r setup, include=FALSE}
 library(tidyverse)
 library(janitor)
+library(stringr)
+library(sjmisc)
 ```
 
 
@@ -23,15 +25,161 @@ raw_data <- clean_names(raw_data)
 
 ```{r, cohort}
 
-cohort <- raw_data %>% dplyr::select(1:138) %>% dplyr::select(-c(x47,x93))
+cohort <-
+  raw_data %>% dplyr::select(1:138) %>% dplyr::select(-c(x47, x93))
 
+
+#wide to long
 cohort <- cohort %>%  tidyr::pivot_longer(
-    cols = c(adams_daniel:wilson_randy),
-    names_to = "alter",
-    values_to = "function"
-    
-) %>% select(name, alter, `function`, everything()) %>% 
+  cols = c(adams_daniel:wilson_randy),
+  names_to = "alter",
+  values_to = "function"
+  
+) %>% select(ego, alter, `function`, everything()) %>%
   drop_na(`function`)
+
+colnames(cohort) = gsub("function_other_", "", colnames(cohort))
+
+#Collating other options 
+cohort$function_other <- ""
+
+for (i in 1:length(cohort$alter)) {
+  for (j in 4:48) {
+    if (cohort$alter[i] == colnames(cohort[j])) {
+      cohort$function_other[i] = cohort[[j]][i]
+    }
+  }
+  
+}
+
+#Removing the unncessary functions others 
+cohort$nature <- ""
+cohort <- cohort %>% select(ego, alter, `function`, function_other, nature, everything()) %>% select(-c(adams_daniel:wilson_randy))
+
+
+
+colnames(cohort) = gsub("nature_", "", colnames(cohort))
+
+
+for (i in 1:length(cohort$alter)) {
+  for (j in 6:50) {
+    if (cohort$alter[i] == colnames(cohort[j])) {
+      cohort$nature[i] = cohort[[j]][i]
+    }
+  }
+  
+}
+
+cohort <- cohort %>% select(ego, alter, `function`, function_other, nature)
+cohort$`B&A` <- 0
+cohort$Landscape <- 0
+cohort$Permitting <- 0
+cohort$Science <- 0
+cohort$Other <- 0
+
+for (i in 1:length(cohort$alter)) {
+  for (j in 6:10) {
+    if (str_contains(cohort$`function`[i], colnames(cohort[j]))) {
+      cohort[[j]][i] <- 1
+    }
+  }
+  
+}
+
+cohort <- cohort %>% select(ego, alter, `B&A`, Landscape, Permitting, Science, Other, function_other, nature)
+cohort <- cohort %>% rename(Ego=ego, Alter=alter, `Other Explained` = function_other, Nature = nature)
+
+
+cohort$Alter <- gsub('_', ' ', cohort$Alter)
+
+cohort$Alter <- sub("(\\w+)\\s(\\w+)","\\2 \\1", cohort$Alter)
+cohort$Alter <- str_to_title(cohort$Alter)
+
+```
+
+# USFWS Network 
+
+```{r, USFWS}
+
+USFWS <- raw_data %>% dplyr::select(-c(2:138), -c(x154, x170, x186, x202)) %>% dplyr::select(-c(77:186)) 
+
+#Alters 
+Alters <- USFWS %>% dplyr::select(1:16)
+
+Alters <- Alters %>%  tidyr::pivot_longer(
+  cols = c(usfws_number_1:usfws_number_15),
+  names_to = "to_delete",
+  values_to = "Alter"
+  
+) %>% select(ego, Alter) 
+
+#Program
+program <- USFWS %>% dplyr::select(ego, 17:31)
+program <- program %>%  tidyr::pivot_longer(
+  cols = c(program_usfws_number_1:program_usfws_number_15),
+  names_to = "to_delete",
+  values_to = "Program"
+  
+) %>% select(ego, Program) 
+
+#functional area
+func <- USFWS %>% dplyr::select(ego, 32:46)
+func <- func %>%  tidyr::pivot_longer(
+  cols = c(functional_area_usfws_number_1:functional_area_usfws_number_15),
+  names_to = "to_delete",
+  values_to = "Functional Area"
+  
+) %>% select(ego, "Functional Area")
+
+#functional area other
+other <- USFWS %>% dplyr::select(ego, 47:61)
+other <- other %>%  tidyr::pivot_longer(
+  cols = c(function_other_usfws_number_1:function_other_usfws_number_15),
+  names_to = "to_delete",
+  values_to = "Other Area"
+  
+) %>% select(ego, "Other Area")
+
+#nature
+nature <- USFWS %>% dplyr::select(ego, 62:76)
+nature <- nature %>%  tidyr::pivot_longer(
+  cols = c(nature_usfws_number_1:nature_usfws_number_15),
+  names_to = "to_delete",
+  values_to = "Nature"
+  
+) %>% select(ego, "Nature")
+
+#join them together
+USFWS_final <- Alters %>% bind_cols(program, func, other, nature)
+USFWS_final <- USFWS_final %>% dplyr::select("ego...1", "Alter", "Program", "Functional Area", "Other Area", "Nature") %>% rename(Ego = "ego...1") %>% drop_na(Alter)
+
+USFWS_final$`Budget and Administration` <- 0
+USFWS_final$Landscape <- 0
+USFWS_final$Permitting <- 0
+USFWS_final$Science <- 0
+USFWS_final$Other <- 0
+
+for (i in 1:length(USFWS_final$`Functional Area`)) {
+  for (j in 7:11) {
+    if (str_contains(USFWS_final$`Functional Area`[i], colnames(USFWS_final[j]))) {
+      USFWS_final[[j]][i] <- 1
+    }
+  }
+  
+}
+
+USFWS_final <- USFWS_final %>% select(Ego, Alter, Program, -c(`Functional Area`), `Budget and Administration`, Landscape, Permitting, Science, Other, `Other Area`, Nature )
 
 
 ```
+
+
+# External 
+
+```{r, external}
+
+
+
+```
+
+
