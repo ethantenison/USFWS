@@ -1,0 +1,205 @@
+---
+title: "Geospatial Network"
+output: html_notebook
+---
+
+
+
+```{r message=FALSE, warning=FALSE}
+library(tidyverse)
+library(ggmap)
+library(readr)
+library(plotly)
+```
+
+```{r ,data}
+set.seed(27)
+raw <- read_csv("SAMB_cohort_network.csv",
+                col_types = cols(ID = col_skip(), `Other Explained` = col_skip()))
+
+loc <- read_csv("coordinates.csv",
+                col_types = cols(X1 = col_skip()))
+
+loc$noiselon <- runif(400, min= -0.00900, max= 0.00900)
+loc$noiselat <- runif(400, min= -0.00900, max= 0.00900)
+loc$lon = loc$lon + loc$noiselon
+loc$lat = loc$lat + loc$noiselat
+
+```
+
+
+```{r, clean}
+
+df <- left_join(raw,loc, by = c("Ego" = "name"))
+
+#Long lat data for egos 
+for (i in 1:length(df$Ego)) {
+  if (df$Ego[i] == "Buddy Jones") {
+    df$lon[i] <- -77.398689
+    df$lat[i] <- 35.533957 
+  }
+  else if (df$Ego[i] == "Cathy Watkins") {
+    df$lon[i] <- -91.334591
+    df$lat[i] <- 34.292251
+  }
+  
+  else if (df$Ego[i] == "Jose Barrios") {
+    df$lon[i] <- -84.370064
+    df$lat[i] <- 33.777540
+  }
+  
+  else if (df$Ego[i] == "Roy Freeman") {
+    df$lon[i] <- -84.374064
+    df$lat[i] <- 33.770540
+  }
+  else if (df$Ego[i] == "Stephanie Bruner") {
+    df$lon[i] <- -84.375064
+    df$lat[i] <- 33.779540
+  }
+  
+}
+
+
+#Adding long lat data for alters 
+df <- left_join(df,loc, by = c("Alter" = "name"))
+
+
+for (i in 1:length(df$Alter)) {
+  if (df$Alter[i] == "Buddy Jones") {
+    df$lon.y[i] <- -77.398689
+    df$lat.y[i] <- 35.533957 
+  }
+  else if (df$Alter[i] == "Cathy Watkins") {
+    df$lon.y[i] <- -91.334591
+    df$lat.y[i] <- 34.292251
+  }
+  
+  else if (df$Alter[i] == "Jose Barrios") {
+    df$lon.y[i] <- -84.370064
+    df$lat.y[i] <- 33.777540
+  }
+  
+  else if (df$Alter[i] == "Roy Freeman") {
+    df$lon.y[i] <- -84.374064
+    df$lat.y[i] <- 33.770540
+  }
+  else if (df$Alter[i] == "Stephanie Bruner") {
+    df$lon.y[i] <- -84.375064
+    df$lat.y[i] <- 33.779540
+  }
+  
+}
+
+
+
+
+edges <- df 
+
+```
+
+
+```{r, centrality_and_nodes}
+SAMB_Staff_Centrality <-
+  read_csv(
+    "C:/Users/tenis/OneDrive/Desktop/Data_Projects/USFWS/Data/SAMB (USFWS) share folder/SAMB R/SAMB Staff Centrality.csv",
+    col_types = cols(
+      X1 = col_skip(),
+      admin = col_skip(),
+      city = col_skip(),
+      conservation_delivery = col_skip(),
+      conservation_planning = col_skip(),
+      email = col_skip(),
+      inDegree1 = col_skip(),
+      outDegree1 = col_skip(),
+      program = col_skip(),
+      regulatory_policy = col_skip(),
+      relationships = col_skip(),
+      research = col_skip(),
+      state = col_skip(),
+      teamlead = col_skip(),
+      technical_species_habitats = col_skip(),
+      title = col_skip()
+    )
+  )
+
+nodes <- left_join(SAMB_Staff_Centrality, loc, by = "name")
+
+
+for (i in 1:length(nodes$name)) {
+  if (nodes$name[i] == "Buddy Jones") {
+    nodes$lon[i] <- -77.398689
+    nodes$lat[i] <- 35.533957
+  }
+  else if (nodes$name[i] == "Cathy Watkins") {
+    nodes$lon[i] <- -91.334591
+    nodes$lat[i] <- 34.292251
+  }
+  
+  else if (nodes$name[i] == "Jose Barrios") {
+    nodes$lon[i] <- -84.370064
+    nodes$lat[i] <- 33.777540
+  }
+  
+  else if (nodes$name[i] == "Roy Freeman") {
+    nodes$lon[i] <- -84.374064
+    nodes$lat[i] <- 33.770540
+  }
+  else if (nodes$name[i] == "Stephanie Bruner") {
+    nodes$lon[i] <- -84.375064
+    nodes$lat[i] <- 33.779540
+  }
+  
+}
+
+
+# map projection
+geo <- list(
+  scope = 'north america',
+  projection = list(type = 'azimuthal equal area'),
+  showland = TRUE,
+  landcolor = toRGB("grey83"),
+  countrycolor = toRGB("white"),
+  subunitcolor = toRGB("white"),
+  showlakes = TRUE,
+  lakecolor = toRGB("white"),
+  showsubunits = TRUE,
+  showcountries = TRUE,
+  resolution = 50
+)
+#color = I("red")
+cols <- c("red","black")
+
+fig <- plot_geo(locationmode = 'USA-states')
+fig <- fig %>% add_markers(
+  data = nodes,
+  x = ~ lon,
+  y = ~ lat,
+  text = ~ paste0(name, ": ", TotalDegree, " connections"),
+  size = ~ TotalDegree*10,
+  hoverinfo = "text",
+  alpha = 0.5,
+  color = ~legacy,
+  colors = cols
+)
+
+fig <- fig %>% add_segments(
+  data = edges,
+  x = ~ lon.x,
+  xend = ~ lon.y,
+  y = ~ lat.x,
+  yend = ~ lat.y,
+  alpha = 0.2,
+  size = I(1),
+  hoverinfo = "none",
+  color =  I("black")
+)
+
+fig <- fig %>% layout(
+  title = 'SAMB Staff Network',
+  geo = geo,
+  showlegend = TRUE,
+  height = 800
+)
+
+fig
+```

@@ -1,0 +1,241 @@
+---
+title: "SAMB Network"
+author: "Patrick Bixler"
+date: "9/22/2019"
+output: html_document
+---
+
+```{r include=FALSE}
+source("utils1.R")
+```
+
+```{r Clean Network Data, include=FALSE}
+
+#edgelist 
+el1<-el1
+e1<-as.matrix(el1)
+e1[,1]=as.character(e1[,1])
+e1[,2]=as.character(e1[,2])
+e1[,3]=as.character(e1[,3])
+e1[,4]=as.character(e1[,4])
+e1[,5]=as.character(e1[,5])
+e1[,6]=as.character(e1[,6])
+e1[,7]=as.character(e1[,7])
+e1[,8]=as.character(e1[,8])
+e1[,9]=as.character(e1[,9])
+
+g1<-graph_from_data_frame(d=el1,directed=TRUE) 
+#Some stats like communities and clusters need undirected graphs. Mode = collapse creates an undirected link between any pair of connected nodes. Weight should be "the nature of the tie"==communicate (1); coordinate (2), collaborate (3) but have not coded this yet. 
+#g1_un<-as.undirected(g1, mode= "collapse",edge.attr.comb=list(weight="sum", "ignore"))
+
+
+#Create a nodelist for excel use 
+gvis<-toVisNetworkData(g1)
+nodelist<-gvis$nodes
+nodelist<-nodelist[,1]
+nodelist<-as.data.frame(nodelist)
+names(nodelist)<-c("name")
+
+attr_nodelist<-merge(nodelist,sambstaff,by.x = "name",all.x = TRUE)
+write.csv(attr_nodelist,file = "Nodelist.csv")
+
+# Pull the node list with attributes
+input_attributes<-attr_nodelist
+
+#Define Attributes
+for (i in 1:vcount(g1))
+{
+V(g1)[i]$state<-input_attributes$state[which(input_attributes$name==V(g1)[i]$name)]
+V(g1)[i]$city<-input_attributes$city[which(input_attributes$name==V(g1)[i]$name)]
+}
+
+#new dataframe of landscape connections
+el1_landscape<-el1[which(el1$Landscape=="1"),]
+e1_landscape<-as.matrix(el1_landscape)
+
+#Landscape are directed
+#removed a [,-1] from SDF code after d=e1_landscape
+g1_landscape<-graph_from_data_frame(d=e1_landscape,directed=TRUE) 
+plot(g1_landscape)
+
+#Make new edgelist of science application connections
+el1_science<-el1[which(el1$Science=="1"),]
+e1_science<-as.matrix(el1_science)
+#Science is directed
+g1_science<-graph_from_data_frame(d=e1_science,directed=TRUE) 
+
+plot(g1_science)
+
+#Make new edgelist of permitting connections
+el1_permit<-el1[which(el1$Permitting=="1"),]
+e1_permit<-as.matrix(el1_permit)
+#Permitting is directed
+g1_permit<-graph_from_data_frame(d=e1_permit,directed=TRUE) 
+plot(g1_permit)
+
+# Define networks based on edge type
+#Budget and Administration Network
+el1_BA<-el1[which(el1$B.A=="1"),]
+e1_BA<-as.matrix(el1_BA)
+
+#Budget and Administration graph object
+g1_BA<-graph_from_data_frame(d=e1_BA,directed=TRUE) 
+
+#make as undirected. Not doing this at the moment for the subnetworks
+#g1.2_BA<-as.undirected(g1_BA, mode= "collapse")
+adj1BA<-as_adjacency_matrix(g1_BA)
+m_1BA<-as.matrix(adj1BA)
+
+
+```
+
+$~$
+
+## Ego-centric Network Measures
+```{r echo=FALSE}
+#Degree in 
+
+inDegree1<-igraph::degree(g1,mode="in")
+outDegree1<-igraph::degree(g1,mode="out")
+TotalDegree1<-as.data.frame(igraph::degree(g1))
+betweenness1<-igraph::betweenness(g1, v = V(g1), directed = TRUE, weights = NULL,
+  nobigint = TRUE, normalized = TRUE)
+inCloseness1<-igraph::closeness(g1, vids = V(g1), mode = c("in"),normalized = TRUE)
+outCloseness1<-igraph::closeness(g1, vids = V(g1), mode = c("out"),normalized = TRUE)
+#eigen<-evcent(m1,g=1,gmode = "digraph",rescale=TRUE, ignore.eval=TRUE)
+#removed eigen from this DF_Centrality
+DF_Centrality1<-as.data.frame(cbind(rownames(TotalDegree1),inDegree1,outDegree1,TotalDegree1,betweenness1,inCloseness1,outCloseness1))
+rownames(DF_Centrality1)<-NULL
+DF_Centrality1<-as.data.frame(DF_Centrality1)
+colnames(DF_Centrality1)[1]<-"name"
+colnames(DF_Centrality1)[4]<-"TotalDegree"
+
+
+par(mfcol = c(4,3)) 
+hist(inDegree1)
+hist(outDegree1)
+hist(TotalDegree1)
+hist(betweenness1)
+hist(inCloseness1)
+hist(outCloseness1)
+
+dd.g1<-degree.distribution(g1)
+d<-1:max(TotalDegree1)-1
+ind<-(dd.g1 != 0)
+plot(d[ind],dd.g1[ind],log="xy",col="blue",xlab=c("Log-degree"),ylab=c("Log-Intensity"),
+     main="Log-Log Degree Distribution")
+
+sambstaffcentrality<-merge(DF_Centrality1, attr_nodelist, by = "name")
+write.csv(sambstaffcentrality,file = "SAMB Staff Centrality.csv")
+
+```
+
+## Network Graphs{.tabset}
+
+<br>
+
+
+#All relationships
+```{r echo=FALSE}
+
+lnodes <- data.frame(label = c("AL","AR", "FL","GA","LA","MO","MS", "NC", "TN", "TX", "PR"),
+color.background = c("white","white","white","white","white","white","white","white","white","white", "white"),
+color.border = c("green", "darkred","orange", "red", "yellow","gold","gray","purple","darkgreen","darkorange", "darkblue"),
+shape=c("circle","circle","circle","circle","circle","circle","circle","circle","circle","circle", "circle"))
+
+V(g1)[V(g1)$state=="AL"]$color <- "green"
+V(g1)[V(g1)$state=="AR"]$color <- "darkred"
+V(g1)[V(g1)$state=="FL"]$color <- "orange"
+V(g1)[V(g1)$state=="GA"]$color <- "red"
+V(g1)[V(g1)$state=="LA"]$color <- "yellow"
+V(g1)[V(g1)$state=="MO"]$color <- "gold"
+V(g1)[V(g1)$state=="MS"]$color <- "gray"
+V(g1)[V(g1)$state=="NC"]$color <- "purple"
+V(g1)[V(g1)$state=="TN"]$color <- "darkgreen"
+V(g1)[V(g1)$state=="TX"]$color <- "darkorange"
+V(g1)[V(g1)$state=="PR"]$color <- "darkblue"
+
+gvis<-toVisNetworkData(g1)
+nodelist<-gvis$nodes
+visNetwork(sort(gvis$nodes),gvis$edges,main="All Connections",width = "100%",height = "850px") %>%
+  visLayout(randomSeed = 15) %>%
+  visEdges(arrows = 'to', smooth =T)  %>% 
+  visPhysics(stabilization = FALSE)  %>%
+  visIgraphLayout(smooth=FALSE,physics=FALSE) %>%
+  visLayout(randomSeed = 123,improvedLayout = TRUE)%>%
+  visInteraction(navigationButtons = TRUE)%>%
+  visOptions(selectedBy = list(variable = c("state"), multiple = TRUE),
+             highlightNearest = list(enabled = T, hover = T),
+             nodesIdSelection = TRUE)%>%
+  #visClusteringByColor(colors = c("darkred","green","orange")) %>%
+  addFontAwesome() %>%
+  visLegend(position = "left",addNodes = lnodes,useGroups = FALSE,stepY=100)
+```
+#Landscape Conservation
+```{r echo=FALSE}
+gvis_landscape<-toVisNetworkData(g1_landscape)
+nodelist_landscape<-gvis_landscape$nodes
+visNetwork(sort(gvis_landscape$nodes),gvis_landscape$edges,main="Landscape Conservation Connections",width = "100%",height = "850px") %>%
+  visLayout(randomSeed = 15) %>%
+  visEdges(arrows = 'to', smooth =T)  %>% 
+  visPhysics(stabilization = FALSE)  %>%
+  visIgraphLayout(smooth=FALSE,physics=FALSE) %>%
+  visLayout(randomSeed = 123,improvedLayout = TRUE)%>%
+  visInteraction(navigationButtons = TRUE)%>%
+  visOptions(selectedBy = list(variable = c("Focus"), multiple = TRUE),
+             highlightNearest = list(enabled = T, hover = T),
+             nodesIdSelection = TRUE)%>%
+  addFontAwesome() %>%
+  visLegend(position = "left",useGroups = FALSE,stepY=100)
+```
+#Science Applications
+```{r echo=FALSE}
+gvis_science<-toVisNetworkData(g1_science)
+nodelist_science<-gvis_science$nodes
+visNetwork(sort(gvis_science$nodes),gvis_science$edges,main="Science Applications Connections",width = "100%",height = "850px") %>%
+  visLayout(randomSeed = 15) %>%
+  visEdges(arrows = 'to', smooth =T)  %>% 
+  visPhysics(stabilization = FALSE)  %>%
+  visIgraphLayout(smooth=FALSE,physics=FALSE) %>%
+  visLayout(randomSeed = 123,improvedLayout = TRUE)%>%
+  visInteraction(navigationButtons = TRUE)%>%
+  visOptions(selectedBy = list(variable = c("Focus"), multiple = TRUE),
+             highlightNearest = list(enabled = T, hover = T),
+             nodesIdSelection = TRUE)%>%
+  addFontAwesome() %>%
+  visLegend(position = "left",useGroups = FALSE,stepY=100)
+```
+#Permitting
+```{r echo=FALSE}
+gvis_permit<-toVisNetworkData(g1_permit)
+nodelist_permit<-gvis_permit$nodes
+visNetwork(sort(gvis_permit$nodes),gvis_permit$edges,main="Permittting Connections",width = "100%",height = "850px") %>%
+  visLayout(randomSeed = 15) %>%
+  visEdges(arrows = 'to', smooth =T)  %>% 
+  visPhysics(stabilization = FALSE)  %>%
+  visIgraphLayout(smooth=FALSE,physics=FALSE) %>%
+  visLayout(randomSeed = 123,improvedLayout = TRUE)%>%
+  visInteraction(navigationButtons = TRUE)%>%
+  visOptions(selectedBy = list(variable = c("Focus"), multiple = TRUE),
+             highlightNearest = list(enabled = T, hover = T),
+             nodesIdSelection = TRUE)%>%
+  addFontAwesome() %>%
+  visLegend(position = "left",useGroups = FALSE,stepY=100)
+```
+#Budgeting and Administration
+```{r echo=FALSE}
+gvis_BA<-toVisNetworkData(g1_BA)
+nodelist_BA<-gvis_BA$nodes
+visNetwork(sort(gvis_BA$nodes),gvis_BA$edges,main="Budgeting and Administration Connections",width = "100%",height = "850px") %>%
+  visLayout(randomSeed = 15) %>%
+  visEdges(arrows = 'to', smooth =T)  %>% 
+  visPhysics(stabilization = FALSE)  %>%
+  visIgraphLayout(smooth=FALSE,physics=FALSE) %>%
+  visLayout(randomSeed = 123,improvedLayout = TRUE)%>%
+  visInteraction(navigationButtons = TRUE)%>%
+  visOptions(selectedBy = list(variable = c("state"), multiple = TRUE),
+             highlightNearest = list(enabled = T, hover = T),
+             nodesIdSelection = TRUE)%>%
+  addFontAwesome() %>%
+  visLegend(position = "left",useGroups = FALSE,stepY=100)
+```
