@@ -21,7 +21,6 @@ locations <-
       conservation_delivery = col_skip(),
       conservation_planning = col_skip(),
       email = col_skip(),
-      legacy = col_skip(),
       regulatory_policy = col_skip(),
       relationships = col_skip(),
       research = col_skip(),
@@ -30,6 +29,14 @@ locations <-
       title = col_skip()
     )
   )
+
+#I had to manually input the following into the csv
+# Buddy Jones
+# Cathy Watkins
+# Stephanie Bruner
+# Roy Freeman
+# Jose Barrios
+
 
 ```
 
@@ -45,60 +52,7 @@ locations <- locations[, !(names(locations) %in% cols)]
 #geocoding using ggmap
 locations <- mutate_geocode(locations, address)
 
-#fixing state only addresses
-library(stringr)
-state_only <- locations %>%
-  filter(str_detect(address, "xx"))
 
-unique <- unique(state_only$address)
-
-for (i in 1:length(locations$address)) {
-  if (locations$address[i] == "xx, AL") {
-    locations$lon[i] <- -86.634815
-    locations$lat[i] <- 32.812549
-  }
-  else if (locations$address[i] == "xx, AR") {
-    locations$lon[i] <- -92.287786
-    locations$lat[i] <- 34.746388
-  }
-  else if (locations$address[i] == "xx, FL") {
-    locations$lon[i] <- -81.564481
-    locations$lat[i] <- 28.159199
-  }
-  else if (locations$address[i] == "xx, SC") {
-    locations$lon[i] <- -80.745888
-    locations$lat[i] <- 33.975474
-  }
-  else if (locations$address[i] == "xx, MS") {
-    locations$lon[i] <- -89.582087
-    locations$lat[i] <- 32.837696
-  }
-  else if (locations$address[i] == "xx, GA") {
-    locations$lon[i] <- -83.356342
-    locations$lat[i] <- 32.815171 
-  }
-  else if (locations$address[i] == "xx, LA") {
-    locations$lon[i] <- -92.468889
-    locations$lat[i] <- 31.369212
-  }
-  else if (locations$address[i] == "xx, NC") {
-    locations$lon[i] <- -79.223533
-    locations$lat[i] <- 35.549001
-  }
-  else if (locations$address[i] == "xx, TN") {
-    locations$lon[i] <- -86.481114
-    locations$lat[i] <- 35.847776
-  }
-  else if (locations$address[i] == "xx, WV") {
-    locations$lon[i] <- -80.819397
-    locations$lat[i] <- 38.619257
-  }
-  else if (locations$address[i] == "xx, xx") {
-    locations$lon[i] <- -97.546559
-    locations$lat[i] <- 39.740900
-  }
-  
-}
 
 ```
 

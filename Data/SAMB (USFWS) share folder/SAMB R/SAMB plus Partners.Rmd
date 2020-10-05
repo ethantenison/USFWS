@@ -141,7 +141,7 @@ visNetwork(sort(gvis3$nodes),gvis3$edges,main="SAMB Connections to External Part
   visIgraphLayout(smooth=FALSE,physics=FALSE) %>%
   visLayout(randomSeed = 123,improvedLayout = TRUE)%>%
   visInteraction(navigationButtons = TRUE)%>%
-  visOptions(selectedBy = list(variable = c("program"), multiple = TRUE),
+  visOptions(selectedBy = list(variable = c("state"), multiple = TRUE),
              highlightNearest = list(enabled = T, hover = T),
              nodesIdSelection = TRUE)%>%
   #visClusteringByColor(colors = c(green", "darkred","orange", "red", "yellow","gold","gray","purple","darkgreen","darkorange", "darkblue")) %>%
@@ -196,36 +196,4 @@ visNetwork(sort(gvis3_science$nodes),gvis3_science$edges,main="Science Support C
   addFontAwesome() %>%
   visLegend(position = "left",useGroups = FALSE,stepY=100)
 ```
-#permitting
-```{r echo=FALSE}
-#Define Attributes
-for (i in 1:vcount(g3_permit))
-{
-V(g3_permit)[i]$organization<-input_attributes3$organization[which(input_attributes3$name==V(g3_permit)[i]$name)]
-}
 
-lnodes <- data.frame(label = c("SAMB"),
-color.background = c("white"),
-color.border = c("black"),
-shape=c("circle"))
-
-V(g3_permit)[V(g3_permit)$organization=="SAMB"]$color <- "black"
-
-
-
-
-gvis3_permit<-toVisNetworkData(g3_permit)
-nodelist3_permit<-gvis3_permit$nodes
-visNetwork(sort(gvis3_permit$nodes),gvis3_permit$edges,main="Permittting Connections with External Partners",width = "100%",height = "850px") %>%
-  visLayout(randomSeed = 15) %>%
-  visEdges(arrows = 'to', smooth =T)  %>% 
-  visPhysics(stabilization = FALSE)  %>%
-  visIgraphLayout(smooth=FALSE,physics=FALSE) %>%
-  visLayout(randomSeed = 123,improvedLayout = TRUE)%>%
-  visInteraction(navigationButtons = TRUE)%>%
-  visOptions(selectedBy = list(variable = c("program"), multiple = TRUE),
-             highlightNearest = list(enabled = T, hover = T),
-             nodesIdSelection = TRUE)%>%
-  addFontAwesome() %>%
-  visLegend(position = "left",useGroups = FALSE,stepY=100)
-```
