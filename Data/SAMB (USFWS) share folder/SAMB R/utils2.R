@@ -30,5 +30,5 @@ library(htmlTable)
 
 #load data
 
-el2<-read.csv("USFWS_network.csv")[,-1]
-samb_usfws_2<-read.csv("SAMB location_expertise2.csv", header=TRUE)
+el2<-read.csv("USFWS_network_in region.csv")[,-1]
+samb_usfws_3<-read.csv("SAMB location_expertise3.csv", header=TRUE)

@@ -63,7 +63,9 @@ library(mapview)
 locations_sf <- st_as_sf(locations, coords = c("lon", "lat"), crs = 4326)
 
 mapview(locations_sf)
+
 ```
+
 
 ```{r, save}
 
@@ -71,4 +73,32 @@ write.csv(locations, "coordinates.csv")
 
 ```
 
+# Now for the USFWS network 
 
+```{r message=FALSE, warning=FALSE}
+
+#I added Jose Barrios from the external csv 
+
+library(readr)
+locations_USFWS <- read_csv("SAMB location_expertise3.csv", 
+    col_types = cols(admin = col_skip(), 
+        conservation_delivery = col_skip(), 
+        conservation_planning = col_skip(), 
+        email = col_skip(), regulatory_policy = col_skip(), 
+        relationships = col_skip(), research = col_skip(), 
+        teamlead = col_skip(), technical_species_habitats = col_skip(), 
+        title = col_skip()))
+
+#Pasting city and state together
+cols <- c('city', 'state')
+locations_USFWS$address <-
+  apply(locations_USFWS[, cols] , 1 , paste , collapse = ", ")
+locations_USFWS <- locations_USFWS[, !(names(locations_USFWS) %in% cols)]
+
+
+#geocoding using ggmap
+locations_USFWS <- mutate_geocode(locations_USFWS, address)
+
+#save
+write.csv(locations_USFWS, "coordinates_USFWS.csv")
+```
