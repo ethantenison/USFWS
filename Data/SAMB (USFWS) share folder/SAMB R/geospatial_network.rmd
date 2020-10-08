@@ -579,4 +579,6 @@ city_density <- select(city_density, address, total)
 city_density <- unique(city_density)
 city_density
 
+write.csv(city_density, "city_density_USFWS.csv")
+
 ```
