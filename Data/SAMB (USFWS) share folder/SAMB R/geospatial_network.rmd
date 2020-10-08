@@ -393,8 +393,8 @@ loc <-
   )
 
 #Noise was introduced so all the nodes aren't on top of each other
-loc$noiselon <- runif(288, min = -0.0900, max = 0.0900)
-loc$noiselat <- runif(288, min = -0.0900, max = 0.0900)
+loc$noiselon <- runif(288, min = -0.0090, max = 0.0090)
+loc$noiselat <- runif(288, min = -0.0090, max = 0.0090)
 loc$lon = loc$lon + loc$noiselon
 loc$lat = loc$lat + loc$noiselat
 ```
@@ -441,24 +441,25 @@ nodes <- left_join(SAMB_USFWS_Centrality, loc, by = "name")
 
 
 
-
+nodes$program.x[nodes$program.x == "Information Resources and Technology Management (IRTM)"] <- "IRTM"
 nodes$program.x <- as.factor(nodes$program.x)
 nodes$program.x <- factor(
   nodes$program.x,
   levels =
     c(
-      "Ecological Services",
-      "External Affairs",
-      "Fisheries and Aquatic Conservation",
-      "Gulf Restoration",
-      "Information Resources and Technology Management (IRTM)",
-      "Joint Administrative Operations",
-      "Law Enforcement",
-      "Migratory Birds",
-      "National Wildlife Refuge System",
-      "Regional Director's Office",
+      "Wildlife and Sport Fish Restoration",
       "SAMB",
-      "Wildlife and Sport Fish Restoration"
+      "Regional Director's Office",
+      "National Wildlife Refuge System",
+      "Migratory Birds",
+      "Law Enforcement",
+      "Joint Administrative Operations",
+      "IRTM",
+      "Gulf Restoration",
+      "Fisheries and Aquatic Conservation",
+      "External Affairs",
+      "Ecological Services"
+      
     ),
   exclude = NULL,
   ordered = TRUE
@@ -495,6 +496,7 @@ geo <- list(
 
 cols <-
   c(
+    "black",
     "#800000",
     "#FF0000",
     "#808000",
@@ -526,7 +528,7 @@ fig <- fig %>% add_segments(
   colors = cols
 )
 
-fig <- fig %>% layout(title = 'SAMB Partner Network',
+fig <- fig %>% layout(title = 'SAMB USFWS Network',
                       geo = geo,
                       showlegend = TRUE)
 
@@ -537,6 +539,9 @@ fig <- fig %>% add_markers(
   y = ~ lat,
   text = ~ paste0(
     name,
+    "<br>",
+    "Program: ",
+    program.x,
     "<br>",
     "Connections: ",
     TotalDegree,
@@ -555,12 +560,23 @@ fig <- fig %>% add_markers(
 
 
 
-# library(htmlwidgets)
-# saveWidget(fig,
-#            "SAMB_External_Network.html",
-#            selfcontained = T,
-#            libdir = "lib2")
+ library(htmlwidgets)
+ saveWidget(fig,
+            "SAMB_USFWS_Network.html",
+            selfcontained = T,
+            libdir = "lib3")
 
 fig
+
+```
+
+
+```{r, city_density}
+
+city_density <- select(nodes, TotalDegree, address )
+city_density <- city_density %>% group_by(address) %>% mutate(total = sum(TotalDegree)) %>% arrange(desc(total))
+city_density <- select(city_density, address, total)
+city_density <- unique(city_density)
+city_density
 
 ```
