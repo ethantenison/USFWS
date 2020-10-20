@@ -1,5 +1,5 @@
 ---
-title: "Geospatial Network"
+title: "SAMB Geospatial Networks"
 output: html_notebook
 ---
 
@@ -12,7 +12,7 @@ library(readr)
 library(plotly)
 ```
 
-```{r ,data}
+```{r ,data_SAMB}
 set.seed(27)
 raw <- read_csv("SAMB_cohort_network.csv",
                 col_types = cols(ID = col_skip(), `Other Explained` = col_skip()))
@@ -29,7 +29,7 @@ loc$lat = loc$lat + loc$noiselat
 ```
 
 # Edges 
-```{r, clean}
+```{r, edges_SAMB}
 
 df <- left_join(raw,loc, by = c("Ego" = "name"))
 df <- left_join(df, loc, by = c("Alter" = "name"))
@@ -60,7 +60,7 @@ edges$legacy.z <- factor(
 ```
 
 # Nodes 
-```{r, centrality_and_nodes}
+```{r, nodes_SAMB}
 SAMB_Staff_Centrality <-
   read_csv(
     "C:/Users/tenis/OneDrive/Desktop/Data_Projects/USFWS/Data/SAMB (USFWS) share folder/SAMB R/SAMB Staff Centrality.csv",
@@ -102,7 +102,7 @@ nodes$legacy.x <- factor(
 
 
 
-```{r, plotly}
+```{r, plotly_SAMB}
 # map projection
 geo <- list(
   scope = 'north america',
@@ -118,6 +118,10 @@ geo <- list(
   resolution = 50
 )
 
+t <- list(
+  family = "sans serif",
+  size = 20,
+  color = 'black')
 
 cols <- c("#343477", "#277553", "#AA7939")
 
@@ -166,6 +170,7 @@ fig <- fig %>% add_markers(
 
 
 fig <- fig %>% layout(title = 'SAMB Staff Network',
+                      font=t,
                       geo = geo,
                       showlegend = TRUE)
 
@@ -180,7 +185,7 @@ fig
 # Network with external partners 
 
 
-```{r, read}
+```{r, data_partner}
 
 external <- read_csv(
   "external_network_clean.csv",
@@ -201,7 +206,7 @@ external <- read_csv(
 # External Edges 
 
 # Edges 
-```{r, clean_external}
+```{r, edges_partner}
 
 df <- left_join(external, loc, by = c("ego" = "name"))
 df <- left_join(df, loc, by = c("alter" = "name"))
@@ -242,7 +247,7 @@ edges$Connection <- factor(
 # Nodes 
 
 
-```{r, nodes}
+```{r, nodes_partner}
 
 SAMB_Partners_Centrality <-
   read_csv(
@@ -293,7 +298,7 @@ nodes <-
 
 # Partner Network
 
-```{r, plotly}
+```{r, plotly_partner}
 # map projection
 geo <- list(
   scope = 'north america',
@@ -369,7 +374,7 @@ fig
 
 # USFWS Network 
 
-```{r ,data}
+```{r ,data_usfws}
 set.seed(27)
 
 raw <-
@@ -494,6 +499,13 @@ geo <- list(
   resolution = 50
 )
 
+
+t <- list(
+  family = "roboto",
+  size = 20,
+  color = 'black')
+
+
 cols <-
   c(
     "black",
@@ -530,6 +542,8 @@ fig <- fig %>% add_segments(
 
 fig <- fig %>% layout(title = 'SAMB USFWS Network',
                       geo = geo,
+                      font = t,
+                      margin = list(l=50, r=50, b=50, t=50, pad=4),
                       showlegend = TRUE)
 
 
